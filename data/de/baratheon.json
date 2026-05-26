@@ -1,0 +1,2825 @@
+{
+    "_meta": {
+        "author": "CMON",
+        "id": "baratheon",
+        "language": "de"
+    },
+    "unit": [
+        {
+            "id": "10601",
+            "name": "Hirschritter",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Zorn der Hirsche",
+                "Mut der Hirsche"
+            ],
+            "attacks": [
+                {
+                    "name": "Zorn der Hirsche",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        5
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 5,
+            "speed": 5,
+            "cost": 7,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Die Hirschritter bilden den Kern der Eliteeinheiten von Haus Baratheon. Jeder von ihnen ist selbst ein Adliger und nur diesen ehrenwerten Sers ist es erlaubt, den charakteristischen gehörnten Helm zu tragen. Hirschritter sind schwer gepanzert. Sie tragen Plattenpanzer, die so edel sind, dass sie den Lennisters in nichts nachstehen. Sie schwingen mächtige Zweihandhämmer, die Rüstungen ihrer Feinde ebenso wie deren Knochen zerschmettern können. Selbst wenn sie umzingelt sind, kämpfen die Hirschritter in ihrem ungezügelten Zorn unbeirrt weiter."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10602",
+            "name": "Wächter von Haus Baratheon",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+			    "Befehl: Linie halten!",
+                "Kriegshammer",
+                "Gegenschlag"
+            ],
+            "attacks": [
+                {
+                    "name": "Kriegshammer",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        6,
+                        5,
+                        4
+                    ]
+                }
+            ],
+            "defense": 3,
+            "morale": 6,
+            "speed": 4,
+            "cost": 5,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Auch wenn das Haus Baratheon gespalten ist, so schöpfen ihre Truppen doch aus derselben Ausbildung aus einer Zeit, zu der sie dem vereinten Haus vor dem Krieg der Fünf Könige gedient haben. Die Wächter von Haus Baratheon sind schwer gepanzert, tragen mächtige Schilde und schwingen die typischen Baratheon- Kriegshämmer. Die Wächter sind standhaft und robust und können sowohl in der Vorhut als auch im Zentrum einer Schlacht eingesetzt werden, auch wenn Schnelligkeit nicht zu ihren Stärken gehört."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10603",
+            "name": "Schildwachen von Haus Baratheon",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Bewachen",
+                "Doppelhämmer",
+				"Kämpfend untergehen"
+            ],
+            "attacks": [
+                {
+                    "name": "Doppelhämmer",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        7,
+                        6,
+                        5
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 6,
+            "speed": 5,
+            "cost": 5,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Obwohl sie offiziell als mittelschwere Infanterie gelten, sind die Schildwachen von Haus Baratheon mit einer schwereren Rüstung ausgestattet, als man eigentlich bei einer Einheit erwarten würde, die in der Regel zur Durchführung oder Abwehr von Flankenmanövern eingesetzt wird. Einbußen in ihrer Geschwindigkeit sind der offensichtliche Kompromiss, den die Schildwachen dafür eingehen müssen, aber die meisten mittelschweren Infanterien können sich weder derart behaupten, noch so verheerende Angriffe durchführen, wie es die Schildwachen vermögen. In ungeübten Händen ist ihr Kriegshammer hinderlich, doch ein gut platzierter Schlag mit seinem schweren Kopf kann so manche Plattenrüstung zum Bersten bringen."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10604",
+            "name": "Rosenritter",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "unit",
+            "abilities": [
+                "Beharrlichkeit und Mut",
+                "Tödliche Dornen"
+            ],
+            "attacks": [
+                {
+                    "name": "Langschwert",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        5
+                    ]
+                }
+            ],
+            "defense": 3,
+            "morale": 5,
+            "speed": 4,
+            "cost": 7,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Die Rosenritter in König Renlys Diensten sind eine für die Frontlinie spezialisierte Einheit, die in der schwersten Plattenrüstung und den edelsten grünen Stoffen, die Renlys riesige Geldbörse hergeben, in die Schlacht ziehen. Ihre harte Ausbildung und glühende Loyalität ihrem König gegenüber lassen diese Truppen selbst schwer verwundet noch weiterkämpfen. Die Rosenritter können den härtesten Schlag einstecken und doppelt so hart zurückschlagen, doch ein Heerführer sollte stets darauf achten, dass sie nicht umzingelt werden."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10605",
+            "name": "Anhänger von R’hllor",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Treu",
+				"Schwert des Glaubens"
+            ],
+            "attacks": [
+                {
+                    "name": "Schwert des Glaubens",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        4
+                    ]
+                }
+            ],
+            "defense": 5,
+            "morale": 4,
+            "speed": 6,
+            "cost": 6,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Es stellt zwar niemand ihren felsenfesten Glauben an R’hllor infrage, doch besitzt natürlich nicht jeder Anhänger in Stannis’ Truppen das sagenumwobene flammende Schwert von Azor Ahai namens Lichtbringer. Stattdessen stecken sie ihre Klingen mithilfe eines Ölgemischs in Brand, was für kurze Zeit eine enorme Hitze erzeugt. Obwohl sie nicht schwer gepanzert sind, können sie jedem Feind dank ihrer Überzeugungen Paroli bieten und sicherstellen, selbst dann noch eine Inspiration für andere zu sein, wenn sie fallen."
+            },
+            "icon": "infantry",
+            "tokens": {
+                "name": "faith",
+                "number": 1
+            }
+        },
+        {
+            "id": "10606",
+            "name": "Streiter des Hirsches",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Kavallerie",
+                "Zorn der Streiter",
+				"Feigheit bestrafen"
+            ],
+            "attacks": [
+                {
+                    "name": "Zorn der Streiter",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        6,
+                        5
+                    ]
+                }
+            ],
+            "defense": 2,
+            "morale": 5,
+            "speed": 4,
+            "cost": 8,
+            "tray": "cavalry",
+            "fluff": {
+                "lore": "Im Einklang mit dem Grundsatz der Baratheons hinsichtlich schwerer Waffen und noch schwererer Rüstung stecken die Streiter des Hirsches von oben bis unten in Kettenpanzer auf gewaltigen Schlachtrossen. Diese Moloche besitzen die Beweglichkeit einer Kavallerie und das Durchhaltevermögen von Einheiten an vorderster Front. Kluge Befehlshaber sorgen am Besten dafür, dass sie beweglich bleiben und sie so ihre Gefechte selbst wählen können. Trotzdem können die Streiter, falls nötig, die Stellung länger als die meisten anderen Kavallerie-Einheiten halten."
+            },
+            "icon": "cavalry",
+            "wounds": 3
+        },
+        {
+            "id": "10607",
+            "name": "Adliger von Drachenstein",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Ermutigung des Adligen",
+                "Einzelreiter",
+                "Meisterhafter Kriegshammer"
+            ],
+            "attacks": [
+                {
+                    "name": "Meisterhafter Kriegshammer",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        3
+                    ]
+                }
+            ],
+            "defense": 2,
+            "morale": 3,
+            "speed": 4,
+            "cost": 4,
+            "tray": "solo",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten. Deine Armee darf maximal 2 Adlige von Drachenstein enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Die Adligen von Drachenstein sind leicht an ihren charakteristischen Geweihhelmen zu erkennen, die das Siegel des Hauses Baratheon repräsentieren. Umhüllt von metallenen Rüstungen reiten sie auf schwer gepanzerten Pferden in den Kampf. Auf dem Schlachtfeld sind sie mitunter die kräftigsten Kämpfer. Je verzweifelter die Situation scheint, desto verbissener kämpfen diese fanatischen Krieger. Während sie darin glänzen, leichtere Truppen zu blockieren, sollte man darauf achten, dass sie nicht vom Gegner eingekreist werden."
+            },
+            "icon": "cavalry",
+            "wounds": 3
+        },
+        {
+            "id": "10608",
+            "name": "Männer des Königs",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "unit",
+            "abilities": [
+                "Bis zum letzten Mann!",
+                "Klinge des Königs"
+            ],
+            "attacks": [
+                {
+                    "name": "Großschwert",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        5
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 5,
+            "speed": 5,
+            "cost": 7,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Am Hofe von Stannis Baratheon stehen die Männer des Königs treu zu den Sieben, die vorherrschende Religion in Westeros. Die Männer des Königs sind den sogenannten „Männern der Königin“, die R’hllor anbeten, zwar nicht feindlich gesinnt, aber sie üben sich in einem anderen Kampfstil. Die Männer des Königs konzentrieren sich auf Großschwerter und die Beweglichkeit, die ihnen ihre schwere Rüstung zugesteht, immer mit dem unerschütterlichen Glauben an ihren einzig wahren König Stannis Baratheon."
+            },
+            "icon": "infantry",
+            "tokens": {
+                "name": "wound",
+                "number": 2
+            }
+        },
+        {
+            "id": "10609",
+            "name": "R’hllors Männer der Königin",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Linie halten!",
+                "Bis zum letzten Mann!",
+                "Klinge der Königin"
+            ],
+            "attacks": [
+                {
+                    "name": "Langschwert",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        5
+                    ]
+                }
+            ],
+            "defense": 3,
+            "morale": 5,
+            "speed": 4,
+            "cost": 7,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Die Männer der Königin am Hofe von Stannis Baratheons werden nicht unbedingt wegen ihrer Zuneigung zu Königin Selyse so genannt, sondern aufgrund ihrer Bekehrung zum R’hllor-Glaube (obwohl manche sagen, dass ihre wahre Loyalität eher der Roten Priesterin Melisandre gilt). Die Männer der Königin sind schwer gepanzerte Eliteeinheiten in der Vorhut, die fast jeden feindlichen Angriff abwehren können. Obwohl sie unter der üblichen Trägheit schwerer Truppen leiden, bilden sie einen soliden Wall um ihre Schutzbefohlenen."
+            },
+            "icon": "infantry",
+            "tokens": {
+                "name": "wound",
+                "number": 2
+            }
+        },
+        {
+            "id": "10610",
+            "name": "R’hllors Lichtbringer",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "R’hllors Feuer"
+            ],
+            "attacks": [
+                {
+                    "name": "R’hllors Feuer",
+                    "type": "long",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        7,
+                        4
+                    ]
+                },
+                {
+                    "name": "Dolche",
+                    "type": "melee",
+                    "hit": 5,
+                    "dice": [
+                        5,
+                        4,
+                        3
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 6,
+            "speed": 5,
+            "cost": 6,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Die Überzeugung der Baratheons, auf schwere Panzerung zu vertrauen, zeigt sich auch bei den Rüstungen von R’hllors Lichtbringern. Diese besteht unter anderem aus einem Schuppenhemd und einem Plattenhelm, womit sie im Gegensatz zu anderen Bogenschützeneinheiten in der Lage sind, einem direkten Angriff standzuhalten. Der zusätzliche Schutz hilft ihnen beim Umgang mit ihrer stärksten Waffe: dem Feuer. Die Pfeile der Lichtbringer werden in Öl getaucht und Sekunden vor dem Schuss angezündet. Das zähflüssige Öl verbrennt zwar rasch, kann getroffene Ziele aber im Nu entfachen."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10611",
+            "name": "Armbrustschützen der Dornen-Garde",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Überwachen",
+                "Armbrust aus Rosengarten",
+                "Plänkler"
+            ],
+            "attacks": [
+                {
+                    "name": "Armbrust aus Rosengarten",
+                    "type": "long",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        7,
+                        4
+                    ]
+                },
+                {
+                    "name": "Langschwert",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        7,
+                        6,
+                        4
+                    ]
+                }
+            ],
+            "defense": 5,
+            "morale": 6,
+            "speed": 6,
+            "cost": 7,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Die Armbrustschützen der Dornen- Garde kleiden sich in plattenverstärkten Kettenhemden und tragen anstelle von traditionellen Dolchen oder kurze Klingen, wie sie die meisten Bogenschützen haben, Langschwerter und einzigartige Armbrüste. Tatsächlich werden sie mehr für den Nahkampf mit Feinden trainiert als die meisten anderen Bogenschützen. Nichtsdestotrotz ist die Armbrust ihre primäre Waffe, die selbst schwere Rüstungen durchschlagen kann. Kluge Heerführer wissen sie entsprechend einzusetzen."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10612",
+            "name": "Reiter von Rosengarten",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+			    "Befehl: Rascher Rückzug",
+                "Kavallerie",
+                "Lanze"
+            ],
+            "attacks": [
+                {
+                    "name": "Lanze",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        5,
+                        4
+                    ]
+                }
+            ],
+            "defense": 5,
+            "morale": 6,
+            "speed": 6,
+            "cost": 6,
+            "tray": "cavalry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Das Haus Tyrell ist durchzogen vonritterlichen Traditionen. König RenlysBündnis mit dem Haus Tyrell durchLady Margaery wurde mit der Loyalitätder berühmten Reiter von Rosengartenbelohnt. Obwohl sie nicht so schwergepanzert sind wie die meisten anderenKavallerien, können diese Reiter einenAngriff starten, der so verheerend istwie alles, was andere Fraktionen kaumzusammen aufbringen können. EinHeerführer sollte sich davor hüten, sie ineinen langwierigen Nahkampf zu verwickeln,aber selbst dann noch strotzensie vor Loyalität und Tapferkeit."
+            },
+            "icon": "cavalry",
+            "wounds": 3
+        },
+        {
+            "id": "10613",
+            "name": "Pikeniere von Rosengarten",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "unit",
+            "abilities": [
+                "Beharrlichkeit und Mut",
+                "Koordinierter Angriff"
+            ],
+            "attacks": [
+                {
+                    "name": "Speer",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        7,
+                        6,
+                        4
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 6,
+            "speed": 5,
+            "cost": 5,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "lore": "Rosengarten ist Haus Tyrells Sitz der Macht. Um die Baratheons im Kampf um den Eisernen Thron zu unterstützen, schickt das Haus Tyrell die Pikeniere von Rosengarten in den Kampf. Diese gut ausgebildeten Kämpfer beherrschen den Umgang mit den Piken und bilden auf dem Schlachtfeld eine Mauer des Todes. Obwohl sie nur leicht gepanzert sind, ist die Ausdauer dieser Truppen unübertroffen. Dank ihrer Wendigkeit können Gegner kaum den Überblick über die Pikeniere behalten. Das macht sie zu einem der wichtigsten Pfeiler unter den Truppen der Baratheons."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10614",
+            "name": "Regenbogengarde",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Regenbogengarde",
+                "Sammelruf"
+            ],
+            "attacks": [
+                {
+                    "name": "Meisterhafte Klingen",
+                    "type": "melee",
+                    "hit": 2,
+                    "dice": [
+                        7,
+                        7
+                    ]
+                }
+            ],
+            "defense": 3,
+            "morale": 4,
+            "speed": 5,
+            "cost": 6,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Kann nur in einer Armee aufgestellt werden, die Renly Baratheon, König des Südens, enthält. Er muss diese Einheit verstärken. Deine Armee darf weder Loras Tyrell noch Brienne enthalten.*",
+                    "name": "Charakter"
+                }
+            ],
+            "fluff": {
+                "lore": "Renly Baratheons Regenbogengarde besteht aus eindrucksvollen Einzelkämpfern, die den jüngsten Baratheon zu ihrem Herrscher und König erkoren. Wenn sie gemeinsam ins Feld ziehen, bilden sie den tödlichen Kern von Renlys Streitmacht, stets in der Lage, die Linie zu halten oder verwundbare Einheiten zu flankieren. Sie stehen für die Hoffnung und den Glauben, mit denen König Renly ganz Westeros unter seinem Banner vereinen will."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10615",
+            "name": "Hellebardiere von Haus Baratheon",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+			    "Befehl: Geschlossen Vorrücken!",
+                "Befehl: Spott",
+                "Hellebarde"
+            ],
+            "attacks": [
+                {
+                    "name": "Hellebarde",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        7,
+                        4
+                    ]
+                }
+            ],
+            "defense": 3,
+            "morale": 6,
+            "speed": 4,
+            "cost": 6,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Wer dem Haus Baratheon gegenübersteht, hat ein mächtiges Problem. Seine Rüstungen sind dick, seine Streitkräfte entschlossen, und wenn es von Hellebardieren begleitet wird, wird sogar die letzte Lücke in seinen Reihen geschlossen: der Vorteil der Kavallerie gegenüber der Infanterie. Darüber hinaus führt jegliches Zögern oder Versäumnis einer Kavallerie (oder ähnlicher Truppen) zu Wirrungen, die das Haus Baratheon für Angriffe auszunutzen weiß. Jeder fähige Befehlshaber der Baratheons wird vielseitige Verwendung für Hellebardiere in seinen Reihen finden."
+            },
+            "icon": "infantry"
+        }
+    ],
+    "ncu": [
+        {
+            "id": "30601",
+            "name": "Alester Florent",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "ncu",
+            "title": "Lord von Klarwasser",
+            "abilities": [
+                {
+                    "name": "Wechselnde Loyalitäten",
+                    "effect": [
+                        "Bei Spielbeginn werden 3 Befehlsmarker auf Alester gelegt.",
+                        "Immer wenn Alester eine Zone auf der Taktiktafel beansprucht, nachdem der Effekt jener Zone abgehandelt worden ist, darfst du 1 Befehlsmarker von ihm ablegen. Falls du das tust, bewege ihn auf eine beliebige freie Zone oder tausche die Zone mit einer beliebigen anderen zivilen Einheit."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "fluff": {
+                "quote": "„Als Mann, der Könige und Götter wechselt, wie ich meine Stiefel.“ – Cortnay Fünfrosen"
+            },
+            "tokens": {
+                "name": "order",
+                "number": 3
+            }
+        },
+        {
+            "id": "30602",
+            "name": "Shyra Errol",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Lady von Erntehall",
+            "abilities": [
+                {
+                    "name": "Entschluss von Erntehall",
+                    "effect": [
+                        "Ein Mal pro Runde, wenn Shyra eine Zone auf der Taktiktafel beansprucht hat, und ein Gegner eine deiner Kampfeinheiten die sich im Nahkampf befindet, mit einer zivilen Einheit, Zone auf der Taktiktafel oder mit einer Taktikkarte zum Ziel bestimmt, nachdem der Effekt abgehandelt wurde, darfst du alle feindliche Einheiten mit der sie sich im Nahkampf befindet zum Ziel bestimmen. Sie werden **Verwundbar**, danach erleiden sie 1 Treffer für jede verbleibene Schlachtreihe in deiner Einheit."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "fluff": {
+                "quote": "„Dem Hause Baratheon verschworen ... erst Renly, dann Stannis.“"
+            }
+        },
+        {
+            "id": "30603",
+            "name": "Melisandre",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Die Rote Frau",
+            "abilities": [
+                {
+                    "name": "Opfer für den Herrn des Lichts",
+                    "effect": [
+                        "**Einfluss** *(Sobald diese Einheit eine Zone auf der Taktiktafel beansprucht, lege diese Karte bis zum Ende der Runde an eine Kampfeinheit an)*:",
+                        "Sobald Melisandre Einfluss auf eine befreundete Einheit ausübt, darfst du sie 2 Wunden erleiden lassen. Falls du das tust, erhält sie 1 der folgenden Effekte, +1 zusätzlichen Effekt für jede Wunde die sie erleidet hat.",
+                        "• Diese Einheit erhält +2 auf das Ergebnis von Moralproben.",
+						"• Die Angriffe dieser Einheit erhalten **Grausam**",
+						"• Wenn diese Einheit einen Nahkampfangriff ausführt, bevor die Angriffswürfel geworfen werden, bestimme den Verteidiger zum Ziel. Er wird **Verwundbar**.",
+						"• Wenn diese Einheit aktiviert, bestimme eine feindliche Einheit in kurzer Reichweite zum Ziel. Sie wird **Panisch**."
+						 ]
+                }
+            ],
+            "cost": 5,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "Lady Melisandre trug keine Krone, doch jeder Mann wusste, dass sie Stannis’ eigentliche Königin war."
+            }
+        },
+        {
+            "id": "30604",
+            "name": "Davos Seewert",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Die Hand des einzig wahren Königs",
+            "abilities": [
+                {
+                    "name": "Schmugglerlist",
+                    "effect": [
+                        "Bei Spielbeginn werden 4 Befehlsmarker auf Davos gelegt.",
+                        "Immer wenn eine befreundete Einheit einen Ansturm durchführt, nachdem die Würfel für die Bewegungsweite des Ansturms geworfen worden sind, darfst du 1 Befehlsmarker von Davos ablegen. Falls du das tust, darfst du alle Würfel für die Bewegungsweite des Ansturms neu werfen.",
+                        "Immer wenn eine befreundete Einheit aktiviert wird, darfst du 1 Befehlsmarker von Davos ablegen. Falls du das tust, dürfen Feinde, die mit jener Einheit im Nahkampf sind, bis zum Ende des Zuges keine Befehle verwenden oder zum Ziel von befreundeten Taktikkarten bestimmt werden."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "Könige und Leichen ziehen immer Aasgeier an."
+            },
+            "tokens": {
+                "name": "order",
+                "number": 3
+            }
+        },
+        {
+            "id": "30605",
+            "name": "Selyse & Sharin",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "ncu",
+            "title": "Königin und Prinzessin",
+            "abilities": [
+                {
+                    "name": "Glühende Überzeugung",
+                    "effect": [
+                        "**Einfluss** *(Sobald diese Einheit eine Zone auf der Taktiktafel beansprucht, lege diese Karte bis zum Ende der Runde an eine Kampfeinheit an)*:",
+                        "Solange Selyse & Sharin Einfluss auf eine Einheit ausüben, immer wenn sie eine Moralprobe besteht, erleidet 1 Feind, der mit dieser Einheit im Nahkampf ist, 1 Wunde."
+                    ]
+                },
+                {
+                    "name": "Nötige Opfer",
+                    "effect": [
+                        "Ein Mal pro Partie, sobald eine befreundete Kampfeinheit vernichtet werden würde, wird jene Einheit nicht vernichtet, sondern verbleibt mit 1W3 geheilten Wunden im Spiel. Sie ist bis zum Ende der Partie eine R’hllor-Einheit."
+                    ]
+                }
+            ],
+            "cost": 5,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "Die Rote Frau hatte sie für sich eingenommen, ihr Herz und ihre Seele. Sie hatte sie zur Abkehr sowohl von den alten als auch den neuen Göttern der Sieben Königslande bewogen."
+            }
+        },
+        {
+            "id": "30606",
+            "name": "Axell Florent",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "ncu",
+            "title": "Die Hand der Königin",
+            "abilities": [
+                {
+                    "name": "Im Namen R’hllors",
+                    "effect": [
+                        "**Einfluss** *(Sobald diese Einheit eine Zone auf der Taktiktafel beansprucht, lege diese Karte bis zum Ende der Runde an eine Kampfeinheit an)*:",
+                        "Immer wenn Axell Einfluss auf eine feindliche Einheit ausübt, wird jene Einheit **Panisch**.",
+                        "Solange Axell Einfluss auf eine befreundete Einheit ausübt, immer wenn diese Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden, wird der Verteidiger **Verwundbar**."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "„Wenn Ihr tatsächlich die Hand der Königin seid, muss ich Ihre Gnaden bemitleiden.“ – Jon Schnee"
+            }
+        },
+        {
+            "id": "30608",
+            "name": "Margaery Tyrell",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Kleine Rose",
+            "abilities": [
+                {
+                    "name": "Eine Rose und ihre Dornen",
+                    "effect": [
+                         "**Einfluss** *(Sobald diese Einheit eine Zone auf der Taktiktafel beansprucht, lege diese Karte bis zum Ende der Runde an eine Kampfeinheit an)*:",
+						 "Solange Margaery Einfluss auf eine befreundete Einheit ausübt, immer wenn diese Einheit Wunden heilt, darfst du 1 feindliche Einheit mit der sie im Nahkampf ist zum Ziel bestimmen. Diese feindliche Einheit erleidet 1 Treffer für jede geheilte Wunde, bis zu einem Maximum von 3."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "„Das Mädchen ist eine Jungfer von vierzehn Jahren, süß und hübsch und fügsam.“ – Varys"
+            }
+        },
+        {
+            "id": "30609",
+            "name": "Olenna Tyrell",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "ncu",
+            "title": "Dornenkönigin",
+            "abilities": [
+                {
+                    "name": "Unkraut ausreißen",
+                    "effect": [
+                        "Immer wenn Olenna eine Zone auf der Taktiktafel beansprucht, bestimme 1 feindliche zivile Einheit zum Ziel und wähle 1 der folgenden Effekte:",
+                        "• Jene zivile Einheit verliert bis zum Ende der Runde alle Fähigkeiten.",
+                        "• Falls jene zivile Einheit in dieser Runde eine Zone auf der Taktiktafel beansprucht, bevor der Effekt jener Zone abgehandelt wird, bestimme 1 feindliche Kampfeinheit zum Ziel. Sie erleidet 1W3 Treffer und wird **Geschwächt**."
+                    ]
+                }
+            ],
+            "cost": 5,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "„Alle Männer sind Narren, das ist wohl wahr, aber die im Narrenkleid sind lustiger als die mit den Kronen.“"
+            }
+        },
+        {
+            "id": "30610",
+            "name": "Eldon Estermont",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Ehrwürdiger Ritter",
+            "abilities": [
+                {
+                    "name": "Alter und Weisheit",
+                    "effect": [
+                        "Ein Mal im Spiel, wenn Eldon eine Zone auf der Taktiktafel beansprucht, darfst du in deinem Taktikdeck nach 1 Karte suchen und diese auf die Hand nehmen. Mische danach dein Taktikdeck.",
+                        "Immer wenn Eldon eine Zone auf der Taktiktafel beansprucht, darfst du den Effekt ersetzen durch:",
+						"Ziehe 3 Taktikkarten, dann mische 1 Karte aus deiner Hand zurück in das Taktikdeck."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "Ein alter Ritter, fast siebzig, er ist der Lord von Grünstein."
+            }
+        },
+        {
+            "id": "30612",
+            "name": "Cortnay Fünfrosen",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "ncu",
+            "title": "Verlässlicher Kastellan",
+            "abilities": [
+                {
+                    "name": "Pflicht des Kastellan",
+                    "effect": [
+                        "Bei Spielbeginn werden 3 Befehlsmarker auf Cortnay gelegt.",
+                        "Immer wenn eine feindliche zivile Einheit aktiviert wird, darfst du 1 Befehlsmarker von Cortnay ablegen. Falls du das tust, wähle 2 Zonen auf der Taktiktafel. Falls jene zivile Einheit in diesem Zug eine dieser Zonen beansprucht, bevor der Effekt jener Zone abgehandelt wird, bestimme eine beliebige Anzahl an befreundeten Kampfeinheiten zum Ziel. Heile 1W3+2 Wunden *(insgesamt)* von diesen Einheiten."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "„Ist es die Gerechtigkeit Eurer Sache, die Ihr anzweifelt, Mylord, oder die Stärke Eures Arms?“"
+            },
+            "tokens": {
+                "name": "order",
+                "number": 3
+            }
+        },
+        {
+            "id": "30613",
+            "name": "Cressen",
+            "faction": "baratheon",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Maester von Drachenstein",
+            "abilities": [
+                {
+                    "name": "Opfer für den König",
+                    "effect": [
+                        "Zu Beginn einer beliebigen Runde darfst du Cressen aktivieren. Falls du das tust, vernichte Cressen am Ende der Runde."
+                    ]
+                },
+                {
+                    "name": "Liebender Berater",
+                    "effect": [
+                        "Immer wenn Cressen die [CROWN]-Zone beansprucht, darfst du den Effekt jener Zone ersetzen durch:",
+                        "*Ziehe 2 Taktikkarten und lege 1 beliebigen Zustandsmarker auf eine feindliche Kampfeinheit.*"
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "„Auf Drachenstein hatte ich einst einen Maester, der wie ein Vater für mich war.“ – Stannis Baratheon"
+            }
+        },
+        {
+            "id": "30614",
+            "name": "Flickenfratz",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "ncu",
+            "title": "Flicken",
+            "abilities": [
+                {
+                    "name": "Falsch interpretierte Omen",
+                    "effect": [
+                        "Bei Spielbeginn werden 3 Befehlsmarker auf Flickenfratz gelegt.",
+                        "Zu Beginn einer beliebigen Runde darfst du 1 Befehlsmarker von Flickenfratz ablegen. Falls du das tust, darfst du den Namen einer Taktikkarte nennen. Falls dein Gegner 1 oder mehr Taktikkarten mit jenem Namen auf der Hand hält, muss er 1 Taktikkarte mit jenem Namen ablegen."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "fluff": {
+                "quote": "„Hier essen wir Fisch. Unter dem Meer frisst der Fisch uns. Ich weiß es, ich weiß es, oh, oh, oh.“"
+            },
+            "tokens": {
+                "name": "order",
+                "number": 3
+            }
+        }
+    ],
+    "attachment": [
+        {
+            "id": "20601",
+            "name": "Renly Baratheon",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Der charismatische Erbe",
+            "abilities": [
+                "Mut und Kühnheit",
+                "Ermutigen",
+                "Loyalität: Renly Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40620",
+                "40621",
+                "40622"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "In dieser und auch in vielerlei anderer Hinsicht ähnelte Renly seinem Bruder Robert und unterschied sich gänzlich von Stannis."
+            }
+        },
+        {
+            "id": "20602",
+            "name": "Stannis Baratheon",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Der rechtmäßige Erbe",
+            "abilities": [
+                "Befehl: Pläne anpassen",
+                "Befehl: Ziel markieren",
+                "Loyalität: Stannis Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40623",
+                "40624",
+                "40625"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Könige haben keine Freunde, nur Untertanen und Feinde.“"
+            }
+        },
+        {
+            "id": "20603",
+            "name": "Adliger Hirschritter",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "attachment",
+            "abilities": [
+                "Kämpfend untergehen",
+                "Eiserne Entschlossenheit"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "icon": "infantry"
+        },
+        {
+            "id": "20604",
+            "name": "Wachhauptmann",
+            "faction": "baratheon",
+            "version": "2021-S01",
+            "role": "attachment",
+            "abilities": [
+                "Befehl: Linie halten!"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "icon": "infantry"
+        },
+        {
+            "id": "20605",
+            "name": "Stannis Baratheon",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Der einzig wahre König",
+            "abilities": [
+                "Zugehörigkeit: R’hllor",
+                "Verwegenheit",
+                "Eiserne Entschlossenheit",
+                "Loyalität: Stannis Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40626",
+                "40627",
+                "40628"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Sein Anspruch ist der wahre … und er ist zutiefst gnadenlos.“ – Varys"
+            }
+        },
+        {
+            "id": "20606",
+            "name": "Devan Seewert",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Knappe des Königs",
+            "abilities": [
+                "Befehl: Waghalsiger Heldenmut",
+                "Feste Überzeugung (Baratheon)"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                },
+                {
+                    "text": "*Wenn deine Armee Stannis Baratheon enthält, reduziere die Kosten von Devan Seewert, Knappe des Königs um 1.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Du hast einen überaus klugen Vater, Devan.“ – Stannis Baratheon"
+            }
+        },
+        {
+            "id": "20607",
+            "name": "Davos Seewert",
+            "faction": "baratheon",
+            "version": "S05",
+            "role": "attachment",
+            "title": "Der Held vom Schwarzwasser",
+            "abilities": [
+                "Loyalität: Stannis Baratheon",
+                "Die Flanke umgehen",
+                "Wegbereiter"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40629",
+                "40630",
+                "40631",
+                "40632"
+            ],
+            "back_text": [
+                {
+                    "text": "*Davos ignoriert die üblichen Einschränkungen für Verstärkungen.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Da kommt in mir der Wunsch auf, mehr Schmuggler in meinen Diensten zu haben. Und weniger Lords.“ – Stannis Baratheon"
+            }
+        },
+        {
+            "id": "20608",
+            "name": "Davos Seewert",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Zwiebelritter",
+            "abilities": [
+                "Befehl: Hilfslieferung",
+                "Feste Überzeugung (Baratheon)"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ein Schmuggler muss die Menschen gut einschätzen können.“ – Stannis Baratheon"
+            }
+        },
+        {
+            "id": "20609",
+            "name": "Andru Estermont",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Wahrer Loyalist",
+            "abilities": [
+                "Befehl: Anspornen",
+                "Feste Überzeugung (Baratheon)"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "Selbst nach Schwarzwasser ist er dem einzig wahren König treu ergeben."
+            }
+        },
+        {
+            "id": "20610",
+            "name": "Andru Estermont",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Der Erste der Männer des Königs",
+            "abilities": [
+                "Feste Überzeugung (Baratheon)",
+                "Der Erste der Männer des Königs",
+                "Loyalität: Stannis Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40633",
+                "40634",
+                "40635"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Die Loyalität der Estermonts gegenüber Stannis steht außer Frage.“"
+            }
+        },
+        {
+            "id": "20611",
+            "name": "Renly Baratheon",
+            "faction": "baratheon",
+            "version": "S05",
+            "role": "attachment",
+            "title": "Oberster Lehnsherr der Sturmlande",
+            "abilities": [
+                "Wilde Ausstrahlung",
+                "Präzision",
+                "Loyalität: Renly Baratheon",
+                "Standhaft"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40608",
+                "40609",
+                "40610"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "In dieser und auch in vielerlei anderer Hinsicht ähnelte Renly seinem Bruder Robert und unterschied sich gänzlich von Stannis."
+            }
+        },
+        {
+            "id": "20612",
+            "name": "Loras Tyrell",
+            "faction": "baratheon",
+            "version": "2021-S02",
+            "role": "attachment",
+            "title": "Der Ritter der Blumen",
+            "abilities": [
+                "Meisterhafter Duellant",
+                "Verwegenheit",
+                "Loyalität: Renly Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40611",
+                "40612",
+                "40613"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Aber niemals werde ich Renly verraten, nicht durch Wort oder Tat.“"
+            }
+        },
+        {
+            "id": "20613",
+            "name": "Loras Tyrell",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Knappe des Königs",
+            "abilities": [
+                "Meisterhafter Duellant"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ser Loras ist so sehr ein Tyrell, dass er Rosenwasser pisst.“ – Cersei Lennister"
+            }
+        },
+        {
+            "id": "20614",
+            "name": "Brienne",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Die Blaue",
+            "abilities": [
+                "Renlys Beschützer"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„… Brienne wollte nur für ihn sterben.“ – Loras Tyrell"
+            }
+        },
+        {
+            "id": "20615",
+            "name": "Eldon Estermont",
+            "faction": "baratheon",
+            "version": "2021-S02",
+            "role": "attachment",
+            "title": "Lord von Grünstein",
+            "abilities": [
+                "Befehl: Ziel markieren",
+                "Abgehärtet",
+                "Loyalität: Renly Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40614",
+                "40615",
+                "40616"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "Es braucht eine gewisse Gerissenheit, um sein Alter zu erreichen."
+            }
+        },
+        {
+            "id": "20617",
+            "name": "Rote Priesterin",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "abilities": [
+                "Opfer für den Gott"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "infantry"
+        },
+        {
+            "id": "20618",
+            "name": "Hauptmann der Pikeniere",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "abilities": [
+                "Mut und Kühnheit",
+                "Gefolgsmann des Herrführers"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "icon": "infantry"
+        },
+        {
+            "id": "20619",
+            "name": "Wache der Dornen-Garde",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "abilities": [
+                "Verwegenheit",
+                "Wütender Ansturm",
+                "Wegbereiter"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "icon": "infantry"
+        },
+        {
+            "id": "20620",
+            "name": "Adliger von Drachenstein",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "abilities": [
+                "Befehl: Bewachen"
+            ],
+            "cost": 1,
+            "tray": "cavalry",
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten. Deine Armee darf maximal 2 Adlige von Drachenstein enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "cavalry"
+        },
+        {
+            "id": "20621",
+            "name": "Axell Florent",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Fanatischer Anhänger",
+            "abilities": [
+                "Zugehörigkeit: R’hllor",
+                "Eifriger Fanatismus",
+                "Bedrohliche Erscheinung"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ein Land, ein Gott, ein König!“"
+            }
+        },
+        {
+            "id": "20622",
+            "name": "Axell Florent",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Der Erste der Männer der Königin",
+            "abilities": [
+                "Zugehörigkeit: R’hllor",
+                "Bedrohliche Erscheinung",
+                "Standhaft",
+                "Loyalität: Stannis Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40636",
+                "40637",
+                "40638"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Stannis Baratheon wird auf dem Eisernen Thron sitzen. Ich habe es gesehen.“"
+            }
+        },
+        {
+            "id": "20623",
+            "name": "Cortnay Fünfrosen",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Loyaler Taktiker",
+            "abilities": [
+                "Befehl: Taktisches Umstellen",
+                "MACHT DES THRONS (Cortnay Fünfrosen)"
+            ],
+            "cost": 2,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Mögen sich die Anderen mit Eurem Herrn des Lichts vergnügen.“"
+            }
+        },
+        {
+            "id": "20624",
+            "name": "Cortnay Fünfrosen",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Kastellan von Sturmkap",
+            "abilities": [
+                "Buchführung (Cortnay Penrose)",
+                "Macht des Throns (Cortnay Fünfrosen)",
+                "Loyalität: Renly Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40617",
+                "40618",
+                "40619"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ein starrköpfiger Mann.“ – Davos Seewert"
+            }
+        },
+        {
+            "id": "20625",
+            "name": "Stannis Baratheon",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "König der Mauer",
+            "abilities": [
+                "Befehl: Anspornen",
+                "Beharrlich Bleiben",
+                "Loyalität: Stannis Baratheon"
+            ],
+            "tray": "cavalry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40639",
+                "40640",
+                "40641"
+            ],
+            "icon": "cavalry",
+            "fluff": {
+                "quote": "„Gold ist kalt und ruht schwer auf dem Kopf, aber solange ich der König bin, obliegt mir eine Pflicht …“"
+            }
+        },
+        {
+            "id": "20626",
+            "name": "Bryn Farring",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Knappe des Königs",
+            "abilities": [
+                "Feste Überzeugung (Baratheon)",
+                "Schutz durch die Krone"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Knappen verwahren Mäntel, Schwerter und Geheimnisse.“"
+            }
+        },
+        {
+            "id": "20627",
+            "name": "Justin Massie",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "attachment",
+            "title": "Gerissener Gefolgsmann",
+            "abilities": [
+                "Befehl: Schlachtplan",
+                "Befehl: Bedrohen"
+            ],
+            "cost": 2,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ich persönlich würde lieber noch bis zum nächsten Frühling leben.“"
+            }
+        },
+        {
+            "id": "20628",
+            "name": "Justin Massie",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Der Lächler",
+            "abilities": [
+                "Befehl: Taktisches Umstellen",
+                "Inspirerende Erscheinung",
+                "Loyalität: Stannis Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40642",
+                "40643",
+                "40644"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Du musst es nicht verstehen. Nur gehorchen.“ – Stannis Baratheon"
+            }
+        },
+        {
+            "id": "20629",
+            "name": "Dael Seewert",
+            "faction": "baratheon",
+            "version": "2021-S02",
+            "role": "attachment",
+            "title": "Kapitän der Gespenst",
+            "abilities": [
+                "Davos’ Vasall",
+                "Gegenschlag"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "STANNIS BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ich habe versucht, als Vater für meine Söhne da zu sein, damit sie ihren Platz in dieser Welt finden.“ – Davos Seewert"
+            }
+        },
+        {
+            "id": "20630",
+            "name": "Renly Baratheon",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "König des Südens",
+            "abilities": [
+                "Schneller Hieb",
+                "Ansprüche auf das Königreich",
+                "Loyalität: Renly Baratheon"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40645",
+                "40646",
+                "40647"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Wen wundert es, dass sich die Lords mit solcher Leidenschaft um ihn versammeln; er ist der wiedergeborene Robert.“ – Catelyn Stark"
+            }
+        },
+        {
+            "id": "20631",
+            "name": "Loras Tyrell",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Lord Kommandant der Regenbogengarde",
+            "abilities": [
+                "Tödliche Dornen"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ser Loras ist unter all seinen Blumen und all seiner Pracht ebenso heißblütig wie Jaime Lennister.“ – Petyr Baelish"
+            }
+        },
+        {
+            "id": "20632",
+            "name": "Bryk Caron",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "attachment",
+            "title": "Bryk der Orange",
+            "abilities": [
+                "Befehl: Spott"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                },
+                {
+                    "text": "*Darf nicht in einer Armee aufgestellt werden, die die Einheit Regenbogengarde enthält.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Warum sind sie nicht bei Euch, jene, die Renly am meisten liebten?“ – Ser Cortnay Fünfrosen"
+            }
+        },
+        {
+            "id": "20633",
+            "name": "Brienne",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "attachment",
+            "title": "Regenbogengarde",
+            "abilities": [
+                "Kampfnarben"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Man fühlt sich nicht so hilflos, wenn man kämpft.“"
+            }
+        },
+        {
+            "id": "20634",
+            "name": "Parmen Kranich",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Parmen der Purpurne",
+            "abilities": [
+                "Sammelruf"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                },
+                {
+                    "text": "*Darf nicht in einer Armee aufgestellt werden, die die Einheit Regenbogengarde enthält.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "Unterschätzt nicht seine Zähheit, nur weilPurpurpflaumen auf seinem Mantel prangen."
+            }
+        },
+        {
+            "id": "20635",
+            "name": "Emmon Cuy",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Emmon der Gelbe",
+            "abilities": [
+                "Vergeltung der Krone"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                },
+                {
+                    "text": "*Darf nicht in einer Armee aufgestellt werden, die die Einheit Regenbogengarde enthält.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Fort von ihm, abscheuliches Geschöpf!“"
+            }
+        },
+        {
+            "id": "20636",
+            "name": "Robar Rois",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Robar der Rote",
+            "abilities": [
+                "Wütender Ansturm",
+                "Rücksichtslose Schläge"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                },
+                {
+                    "text": "*Darf nicht in einer Armee aufgestellt werden, die die Einheit Regenbogengarde enthält.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Der zweitgeborene Sohn muss die Ehre suchen, wo er sie finden kann. Eines Tages ist man die Turniere leid.“"
+            }
+        },
+        {
+            "id": "20637",
+            "name": "Guyard Morrigen",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Guyard der Grüne",
+            "abilities": [
+                "Gegenschlag",
+                "Verwegenheit"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Deine Armee darf nie Einheiten oder Verstärkungen mit anderen Loyalitäten enthalten.*",
+                    "name": "Loyalität",
+                    "heading": "RENLY BARATHEON"
+                },
+                {
+                    "text": "*Darf nicht in einer Armee aufgestellt werden, die die Einheit Regenbogengarde enthält.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "Er wünschte sich nichts mehr, als Kommandant der Vorhut zu sein."
+            }
+        }
+    ],
+    "tactics": [
+        {
+            "id": "40601",
+            "name": "Gerechtigkeit von Haus Baratheon",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Nachdem ein Feind einen Angriff abgeschlossen hat:",
+                    "effect": [
+                        "Der Angreifer erhält 1 Zustandsmarker.",
+                        "Falls du [CROWN] oder [LETTER] kontrollierst, erhält der Angreifer +1 Zustandsmarker."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40602",
+            "name": "Scharfsinn des Hirsches",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit einen Zustandsmarker erhält:",
+                    "effect": [
+                        "Lege jenen Zustandsmarker ab. Du darfst dann 1 Feind, der mit jener Einheit im Nahkampf ist, zum Ziel bestimmen. Er erhält 1 Zustandsmarker jener Art.",
+                        "Falls du [LETTER] kontrollierst, bestimme 1 anderen Feind innerhalb Langer Reichweite zum Ziel. Er erhält 1 Zustandsmarker derselben Art."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40603",
+            "name": "Unser ist der Zorn!",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Wähle 1 der folgenden Effekte. Für jede Zone, die du zwischen [CROWN] und [LETTER] kontrollierst, wähle +1:",
+                        "• Dieser Angriff erhält +1 auf den Trefferwurf.",
+                        "• Dieser Angriff erhält **Spaltschlag**.",
+                        "• Dieser Angriff erhält **Grausam**."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40604",
+            "name": "Ausdauernder Angriff",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Falls diese Einheit den Zug im Nahkampf mit dem Verteidiger begonnen hat, verwendet sie ihren höchsten Angriffswürfelwert und darf beliebig viele Angriffswürfel neu werfen.",
+                        "Falls diese Karte deine Herrführer-Einheit zum Ziel hat, wird der Verteidiger **Verwundbar**."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40605",
+            "name": "Überzeugung von Haus Baratheon",
+            "faction": "baratheon",
+            "version": "2021-S01",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit eine Moralprobe besteht:",
+                    "effect": [
+                        "Diese Einheit heilt 2 Wunden.",
+                        "Falls du [CROWN] kontrollierst, müssen alle Feinde, die mit ihr im Nahkampf sind, eine Panikprobe ablegen.",
+                        "Falls du [LETTER] kontrollierst, erhält jeder Feind, der mit ihr im Nahkampf ist, 1 Zustandsmarker."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40606",
+            "name": "Letzter Hieb",
+            "faction": "baratheon",
+            "version": "2021-S01",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Nachdem ein Feind einen Nahkampfangriff abgeschlossen hat:",
+                    "effect": [
+                        "Für jede Wunde, die der Verteidiger erlitten hat, erleidet der Angreifer 1 Treffer.",
+                        "Falls du [CROWN] kontrollierst, erleidet der Angreifer gegen diese Treffer –1 auf das Ergebnis der Verteidigungswürfe."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40607",
+            "name": "Amtseid",
+            "faction": "baratheon",
+            "version": "S04",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit zum Ziel und lege diese Karte bis zum Ende der Partie an sie an. Sobald eine befreundete Infanterie- oder Kavallerie-Einheit vernichtet wird, lege 1 Befehlsmarker auf diese Karte.",
+                        "Solange auf dieser Karte ein Befehlsmarker liegt, immer wenn diese Einheit einen Nahkampfangriff durchführt, erhält der Verteidiger, bevor die Angriffswürfel geworfen werden, 1 Zustandsmarker und solange du [CROWN] kontrollierst, darf jene Einheit beliebig viele Angriffswürfel neu werfen."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40608",
+            "name": "Unerklärliche Rückkehr",
+            "faction": "baratheon",
+            "version": "S05",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete zivile Einheit eine Zone auf der Taktiktafel beansprucht:",
+                    "effect": [
+                        "Ersetze den Effekt jener Zone durch:",
+                        "*Wähle 1:*",
+                        "• *Bewege 1 befreundete Verstärkung von 1 Einheit zu einer anderen befreundeten Einheit ohne Verstärkung innerhalb Langer Reichweite.*",
+                        "• *Lege 1 zuvor vernichtete befreundete Verstärkung an 1 befreundete Kampfeinheit ohne Verstärkung an (ersetze wie gewohnt eine Figur).*"
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Ziehe 1 Taktikkarte."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20611"
+            }
+        },
+        {
+            "id": "40609",
+            "name": "Geheime Angelegenheiten",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Nachdem eine befreundete Einheit, die nicht Renly Baratheon enthält, angegriffen worden ist:",
+                    "effect": [
+                        "Renlys Einheit führt 1 Angriffs- oder Ansturmaktion auf den Angreifer durch. Bei diesem Angriff wird der höchste Angriffswürfelwert verwendet."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Ziehe 1 Taktikkarte."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20611"
+            }
+        },
+        {
+            "id": "40610",
+            "name": "Im Schatten seines Bruders",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald die Einheit eines feindlichen Heerführers aktiviert wird:",
+                    "effect": [
+                        "Wähle 1 der folgenden Effekte:",
+                        "• Falls jener Feind innerhalb Langer Reichweite zu Renlys Einheit ist, verliert jener Heerführer bis zum Ende der Runde alle Fähigkeiten.",
+                        "• Renlys Einheit führt 1 Manöver- oder Rückzugsaktion durch."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Falls der feindliche Heerführer vernichtet worden ist, heilt Renly Baratheons Einheit 2 Wunden."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20611"
+            }
+        },
+        {
+            "id": "40611",
+            "name": "Von den kleinen Leuten geliebt",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Feind einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Jener Feind legt 1 Moralprobe ab. Bei einem Fehlschlag wird er **Verwundbar** und **Geschwächt**.",
+                        "Falls er innerhalb Kurzer Reichweite zu Loras Tyrells Einheit ist, erleidet er –2 auf das Ergebnis der Moralprobe."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20612"
+            }
+        },
+        {
+            "id": "40612",
+            "name": "Überwucherung",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines feindlichen Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete Einheit zum Ziel. Sie legt 1 Moralprobe ab. Falls sie mit einem Feind im Nahkampf ist, der mehr verbleibende Schlachtreihen hat, besteht sie diese Probe.",
+                        "Bei Bestehen lege diese Karte bis zum Ende der Partie an eine befreundete Einheit an.",
+                        "Solange diese Karte an jener Einheit anliegt, immer wenn sie angegriffen wird, bevor jener Angriff abgehandelt wird, erleidet der Angreifer 1 Treffer, +1 Treffer für jede verbleibende Schlachtreihe des Verteidigers."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20612"
+            }
+        },
+        {
+            "id": "40613",
+            "name": "Kräftig wachsen",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Kampfeinheit aktiviert wird:",
+                    "effect": [
+                        "Alle Feinde mit gleich vielen oder mehr verbleibenden Schlachtreihen, die mit dieser Einheit im Nahkampf sind, werden **Verwundbar**.",
+                        "Dann heilt diese Einheit 1 Wunde, +1 Wunde für jede ihrer vernichteten Schlachtreihen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20612"
+            }
+        },
+        {
+            "id": "40614",
+            "name": "Beträchtliches Lösegeld",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Verstärkung vernichtet wird:",
+                    "effect": [
+                        "Lege diese Karte bis zum Ende der Partie an 1 feindliche Einheit innerhalb Kurzer Reichweite an. Sobald jene Einheit vernichtet wird, erhalte 1 Siegpunkt."
+                    ]
+                },
+                {
+                    "trigger": "Sobald eine feindliche Verstärkung vernichtet wird:",
+                    "effect": [
+                        "Lege diese Karte bis zum Ende der Partie an 1 befreundete Einheit innerhalb Kurzer Reichweite an. Solange diese Karte an jener Einheit anliegt, erhalten ihre Nahkampfangriffe +1 Angriffswürfel und sie erhält +1 auf das Ergebnis von Moralproben."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20615"
+            }
+        },
+        {
+            "id": "40615",
+            "name": "Militärische Überlegenheit",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Feind einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Du darfst 1 **Verwundbar**- Marker vom Angreifer ausgeben. Falls du das tust, erleidet dieser Angriff –1 auf den Trefferwurf und der Angreifer erleidet 1 Treffer für jeden Fehlschlag."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20615"
+            }
+        },
+        {
+            "id": "40616",
+            "name": "Durchhaltevermögen",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit zum Ziel und lege diese Karte bis zum Ende der Partie an sie an. Solange diese Karte an dieser Einheit anliegt, erhalten die Nahkampfangriffe dieser Einheit die folgenden Effekte basierend auf der Spielrunde *(die Effekte sind kumulativ)*:",
+                        "**3+:** Die Einheit darf beliebig viele Fehlschläge neu werfen.",
+                        "**4+:** **Spaltschlag**",
+                        "**5+:** **Kritischer Treffer**",
+                        "**6+:** +2 Angriffswürfel"
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20615"
+            }
+        },
+        {
+            "id": "40617",
+            "name": "Befehle erteilen",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald die Einheit deines Heerführers aktiviert wird:",
+                    "effect": [
+                        "Diese Einheit kann in diesem Zug keine Aktionen durchführen. Bestimme stattdessen 1 andere befreundete Einheit innerhalb Langer Reichweite zum Ziel. Sie führt eine Angriffs- oder Ansturmaktion durch."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit zum Ziel. Lege 1 Befehlsmarker von jener Einheit ab. Sie darf jenen Befehl in dieser Runde erneut verwenden."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20624"
+            }
+        },
+        {
+            "id": "40618",
+            "name": "Überraschende Strategie",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Lege diese Karte und 1 andere Karte ab, um 1 Karte aus deinem Ablagestapel auf deine Hand zurückzuschicken.",
+                        "Falls du [LETTER] kontrollierst, musst du nur diese Karte ablegen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20624"
+            }
+        },
+        {
+            "id": "40619",
+            "name": "Gegenkomplott",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Gegner eine Taktikkarte spielt, bevor jene Karte abgehandelt wird:",
+                    "effect": [
+                        "Wirf einen Würfel. Bei 3+ hebst du die Effekte jener Taktikkarte auf.",
+                        "Falls du [CROWN] oder [LETTER] kontrollierst, hebst du die Effekte jener Taktikkarte bei 2+ auf.",
+                        "Falls du beide Zonen kontrollierst, ist der Wurf automatisch erfolgreich."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20624"
+            }
+        },
+        {
+            "id": "40620",
+            "name": "Reichtum und Charisma",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete zivile Einheit eine Zone auf der Taktiktafel beansprucht:",
+                    "effect": [
+                        "Ersetze den Effekt jener Zone durch:",
+                        "*Wähle 1 der folgenden Effekte:*",
+                        "*• Heile 3 Wunden (insgesamt) von einer beliebigen Anzahl befreundeter Kampfeinheiten.*",
+                        "*• Lege alle Zustandsmarker von jeder befreundeten Kampfeinheit ab. Für jeden Zustandsmarker, den du ablegst, füge 1 Feind, mit dem jene Einheit im Nahkampf ist, 1 Wunde zu.*"
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20601"
+            }
+        },
+        {
+            "id": "40621",
+            "name": "Jünger, verwegener und viel besser aussehend",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit eine Moralprobe besteht:",
+                    "effect": [
+                        "Lege diese Karte an jene Einheit an, bis Renly Baratheons Einheit vernichtet wird. Solange diese Karte an dieser Einheit anliegt und jene Einheit innerhalb Langer Reichweite zu Renlys Einheit ist, erhalten die Nahkampfangriffe dieser Einheit +1 Angriffswürfel und diese Einheit heilt, immer wenn diese Einheit aktiviert wird, 1 Wunde."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Ziehe 1 Taktikkarte."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20601"
+            }
+        },
+        {
+            "id": "40622",
+            "name": "Sie alle machen mich zum König!",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Wähle 1 der folgenden Effekte:",
+                        "• Ziehe 1 Taktikkarte.",
+                        "• Bestimme alle befreundeten Einheiten innerhalb Kurzer Reichweite zu Renly Baratheons Einheit zum Ziel. Sie heilen 1 Wunde.",
+                        "• Bestimme alle feindlichen Einheiten innerhalb Kurzer Reichweite zu Renly Baratheons Einheit zum Ziel. Sie erleiden 1 Wunde."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20601"
+            }
+        },
+        {
+            "id": "40623",
+            "name": "Der Wille des einzig wahren Königs",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete zivile Einheit die [CROWN]-Zone beansprucht:",
+                    "effect": [
+                        "Ersetze den Effekt jener Zone durch:",
+                        "*1 feindliche Kampfeinheit wird **Panisch**.*",
+                        "*1 feindliche Kampfeinheit wird **Verwundbar**.*",
+                        "*1 feindliche Kampfeinheit wird **Geschwächt**.*"
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20602"
+            }
+        },
+        {
+            "id": "40624",
+            "name": "Harte Bedingungen",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Bestimme 1 feindliche Einheit zum Ziel. Lege eine beliebige Anzahl Zustandsmarker von jener Einheit ab. Für jeden abgelegten Zustandsmarker verliert jener Feind bis zum Ende der Runde 1 Fähigkeit."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20602"
+            }
+        },
+        {
+            "id": "40625",
+            "name": "Taktisches Vorrücken",
+            "faction": "baratheon",
+            "version": "S05",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn der Runde:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit zum Ziel. Lege diese Karte bis zum Ende der Partie an jene Einheit an.",
+                        "Solange diese Karte an jener Einheit anliegt, immer wenn sie einen Nahkampfangriff durchführt, nachdem die Angriffswürfel geworfen worden sind, darfst du 1 Zustandsmarker vom Verteidiger ausgeben. Falls du das tust, fügt dieser Angriff +1 Wunden zu.",
+                        "Falls diese Karte Stannis’ Einheit zum Ziel hat, füge +2 Wunden zu."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20602"
+            }
+        },
+        {
+            "id": "40626",
+            "name": "Im Namen R’hllors!",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Dieser Angriff erhält 1 der folgenden Effekte.",
+                        "Falls diese Karte eine R’hllor-Einheit zum Ziel hat, erhält er beides:",
+                        "• **Kritischer Treffer**",
+                        "• **Spaltschlag**",
+                        "Nachdem dieser Angriff abgeschlossen worden ist, falls der Verteidiger nicht vernichtet worden ist, muss der Angreifer 1 Panikprobe ablegen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20605"
+            }
+        },
+        {
+            "id": "40627",
+            "name": "Glaubensprobe",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete R’hllor-Einheit zum Ziel. Jene Einheit legt 1 Moralprobe ab.",
+                        "Bei Bestehen lege alle Zustandsmarker von jener Einheit ab.",
+                        "Lege diese Karte an jene Einheit an. Entferne diese Karte, nachdem ein Feind einen Angriff auf diese Einheit abgeschlossen hat.",
+                        "Solange diese Karte an dieser Einheit anliegt, erhält sie +1 auf das Ergebnis von Verteidigungswürfen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20605"
+            }
+        },
+        {
+            "id": "40628",
+            "name": "AZOR AHAI!",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit eine Panikprobe ablegt, nachdem die Würfel geworfen worden sind:",
+                    "effect": [
+                        "Jene Einheit kann maximal 1 Wunde erleiden, wenn sie an dieser Panikprobe scheitert.",
+                        "Falls diese Karte eine R’hllor- Einheit zum Ziel hat, besteht sie stattdessen diese Probe und alle Feinde, mit denen sie im Nahkampf ist, werden **Panisch**."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20605"
+            }
+        },
+        {
+            "id": "40629",
+            "name": "Flohloch-Tricks",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Nachdem ein Feind einen Nahkampfangriff abgeschlossen hat:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit außer dem Verteidiger zum Ziel. Sie führt 1 Manöveraktion durch. Falls diese Karte Davos’ Einheit zum Ziel hat, darf sie sich stattdessen drehen und dann 1 Marschaktion durchführen."
+                    ]
+                },
+                {
+                    "remove": "Entferne vor Spielbeginn die Taktikkarte „Letzter Hieb“ aus deinem Taktikdeck und ersetze sie durch diese Karte."
+                }
+            ],
+            "commander": {
+                "id": "20607"
+            },
+            "remove": "40606"
+        },
+        {
+            "id": "40630",
+            "name": "„Alles“",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete Infanterie-Einheit zum Ziel.",
+                        "Jene Einheit erleidet bis zu 3 Wunden, bestimme dann 1 andere befreundete Infanterie-Einheit zum Ziel und heile 1+ ebenso viele Wunden von jener Einheit. Falls sie keine Verstärkung hat, darfst du als 1 ihrer geheilten Wunden 1 zuvor vernichtete befreundete Infanterie-Verstärkung an jene Einheit anlegen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20607"
+            }
+        },
+        {
+            "id": "40631",
+            "name": "Loyal zur Krone",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Feind an einer Panikprobe scheitert:",
+                    "effect": [
+                        "Bestimme 1 befreundete Einheit innerhalb Langer Reichweite zum Ziel. Heile 1 Wunde jener befreundeten Einheit für jede Wunde, die jener Feind bei dieser Probe erlitten hat, aber maximal bis zu 3.",
+                        "Falls du [CROWN] kontrollierst, füge der feindlichen Einheit +1 Wunde zu und heile +1 Wunde der befreundeten Einheit *(aber maximal bis zu 4)*."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20607"
+            }
+        },
+        {
+            "id": "40632",
+            "name": "Friedensverhandlung",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit aktiviert wird:",
+                    "effect": [
+                        "Jene Einheit kann in diesem Zug keine Aktionen durchführen. Bestimme 1 Feind innerhalb Kurzer Reichweite zum Ziel. Er wird aktiviert, aber führt keine Aktionen durch.",
+                        "Falls diese Karte Davos’ Einheit zum Ziel hat, darfst du beide Einheiten 2 Wunden heilen lassen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20607"
+            }
+        },
+        {
+            "id": "40633",
+            "name": "Angriffsbefehle",
+            "faction": "baratheon",
+            "version": "S06",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete zivile Einheit eine Zone auf der Taktiktafel beansprucht:",
+                    "effect": [
+                        "Ersetze den Effekt jener Zone durch:",
+                        "*1 befreundete Kampfeinheit führt 1 Nahkampfangriffsaktion durch mit ihrem niedrigsten Angriffswürfelwert.",
+                        "*Falls diese Karte Andru Estermonts Einheit zum Ziel hat, darf sie stattdessen 1 Ansturmaktion durchführen mit ihrem niedrigsten Angriffswürfelwert.*"
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20610"
+            }
+        },
+        {
+            "id": "40634",
+            "name": "Rücksichtslose Raserei",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Dieser Angriff erhält **Grausam** und es wird der höchste Angriffswürfelwert verwendet. Nachdem dieser Angriff abgeschlossen worden ist, erleidet der Angreifer 2 Wunden, –1 Wunde für jede seiner vernichteten Schlachtreihen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20610"
+            }
+        },
+        {
+            "id": "40635",
+            "name": "Angriffsrausch",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit eine Ansturmaktion durchführt, bevor die Würfel für die Bewegungsweite des Ansturms geworfen werden:",
+                    "effect": [
+                        "Die Würfe für die Bewegungsweite des Ansturms dieser Einheit zählen automatisch, als hättest du eine 6 gewürfelt, und ihre Nahkampfangriffe erhalten **Kritischer Treffer**.",
+                        "Nachdem dieser Angriff abgeschlossen worden ist, wird der Angreifer **Verwundbar**, es sei denn, der Angreifer ist Andru Estermonts Einheit."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20610"
+            }
+        },
+        {
+            "id": "40636",
+            "name": "Feuriger Ansturm",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit eine Ansturmaktion durchführt, bevor jene Aktion abgehandelt wird:",
+                    "effect": [
+                        "Jene Einheit zählt automatisch, als hätte sie bei allen Würfen für die Bewegungsweite des Ansturms eine 6 gewürfelt, und Feinde, gegen die sie einen erfolgreichen Ansturm durchführt, werden **Panisch**.",
+                        "Nachdem dieser Angriff abgeschlossen worden ist, wird der Angreifer **Verwundbar**, es sei denn, der Angreifer ist eine R’hllor-Einheit."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20622"
+            }
+        },
+        {
+            "id": "40637",
+            "name": "R’hllors Zorn",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete zivile Einheit eine Zone auf der Taktiktafel beansprucht:",
+                    "effect": [
+                        "Ersetze den Effekt jener Zone durch:",
+                        "*Bestimme 1 feindliche Kampfeinheit zum Ziel.*",
+                        "*Jener Feind muss 1 Panikprobe ablegen und erhält –1 auf das Ergebnis der Probe für jede feindliche R’hllor-Einheit innerhalb Kurzer Reichweite. Bei einem Fehlschlag wird er neben dem Erleiden von Wunden zudem **Verwundbar** und **Geschwächt**.*"
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20622"
+            }
+        },
+        {
+            "id": "40638",
+            "name": "Feurige Entschlossenheit",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine R’hllor-Einheit aktiviert wird:",
+                    "effect": [
+                        "Diese Einheit legt eine Moralprobe ab.",
+                        "Bei Bestehen muss 1 Feind, der mit dieser Einheit im Nahkampf ist, 1 Panikprobe ablegen und erhält –1 auf das Ergebnis der Panikprobe für jede verbleibende Schlachtreihe dieser Einheit.",
+                        "Bei einem Fehlschlag wird 1 Feind, der mit dieser Einheit im Nahkampf ist, **Panisch**."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20622"
+            }
+        },
+        {
+            "id": "40639",
+            "name": "Einberufung",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Kavallerie-Einheit eine Rückzugsaktion durchführt, bevor die Würfel für die Bewegungsreichweite des Rückzugs geworfen werden:",
+                    "effect": [
+                        "Feinde, aus deren Nahkampf sich diese Einheit löst, können sich nicht drehen. Nachdem diese Einheit ihre Rückzugsaktion abgeschlossen hat, darf sie 1 Manöveraktion durchführen.",
+                        "Falls diese Karte Stannis Baratheons Einheit zum Ziel hat, heilt sie zudem 1W3 Wunden, +1 Wunde für jede ihrer vernichteten Schlachtreihen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20625"
+            }
+        },
+        {
+            "id": "40640",
+            "name": "Im Laufschritt!",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Kavallerie-Einheit, die nicht im Nahkampf ist, aktiviert wird:",
+                    "effect": [
+                        "Ein Mal in diesem Zug, falls jene Einheit eine Manöveraktion durchführt, erhält sie +3 [MOVEMENT] für jene Manöveraktion. Dann wird sie **Verwundbar**."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20625"
+            }
+        },
+        {
+            "id": "40641",
+            "name": "Reitet sie nieder!",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Feind eine Manöver-, Marsch- oder Rückzugsaktion beendet:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kavallerie-Einheit innerhalb Langer Reichweite zum Ziel, die eine Ansturmaktion gegen jenen Feind durchführen kann.",
+                        "Sie führt 1 Ansturmaktion gegen jenen Feind durch. Falls sie einen erfolgreichen Ansturm gegen jenen Feind durchführt, führt sie keinen Nahkampfangriff durch, sondern jener Feind wird stattdessen **Panisch** und erleidet 2 Treffer für jede verbleibende Schlachtreihe dieser Einheit."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20625"
+            }
+        },
+        {
+            "id": "40642",
+            "name": "Rückzug und Neuformierung",
+            "faction": "baratheon",
+            "version": "S05",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Bestimme 2 befreundete Infanterie-Einheiten innerhalb Langer Reichweite zueinander zum Ziel. Entferne bis zu 4 Figuren von 1 dieser Einheiten. Heile ebenso viele Wunden der anderen Einheit.",
+                        "Du darfst dann 1 Verstärkung von 1 dieser Einheiten zu der anderen bewegen (ersetze wie gewohnt eine Figur in jener Einheit und achte auf die üblichen Verstärkungsbeschränkungen) oder tausche 2 befreundete Verstärkungen jener Einheiten."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20628"
+            }
+        },
+        {
+            "id": "40643",
+            "name": "Plötzlicher Rückzug",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Nachdem ein Feind einen Nahkampfangriff abgeschlossen hat:",
+                    "effect": [
+                        "Bestimme den Verteidiger zum Ziel. Er führt 1 Rückzugsaktion durch.",
+                        "Falls diese Karte Justin Massies Einheit zum Ziel hat, darf sie alle Würfe für die Bewegungsweite des Rückzugs neu werfen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20628"
+            }
+        },
+        {
+            "id": "40644",
+            "name": "Wertvolle Vorräte",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Nachdem ein Feind einen Nahkampfangriff abgeschlossen hat:",
+                    "effect": [
+                        "Bestimme den Verteidiger zum Ziel. Er legt alle Zustandsmarker ab. Falls er 1 vernichtete Schlachtreihe hat, heilt er 1 Wunde. Falls er 2 vernichtete Schlachtreihen hat, heilt er 3 Wunden. Falls diese Karte Justin Massies Einheit zum Ziel hat, heilt sie +1 Wunde."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20628"
+            }
+        },
+        {
+            "id": "40645",
+            "name": "Vermessenheit",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Feind eine Manöver-, Marsch- oder Rückzugsaktion beendet:",
+                    "effect": [
+                        "Bestimme 1 befreundete Infanterie-Einheit innerhalb Langer Reichweite zum Ziel, die eine Ansturmaktion gegen jenen Feind durchführen kann.",
+                        "Sie wird **Verwundbar** und führt 1 Ansturmaktion gegen jenen Feind durch. Falls sie einen erfolgreichen Ansturm gegen jenen Feind durchführt, führt sie keinen Nahkampfangriff durch, sondern jener Feind erleidet 2 Treffer für jede verbleibende Schlachtreihe dieser Einheit. Falls diese Karte Renly Baratheons Einheit zum Ziel hat, darf sie alle Würfel für die Bewegungsreichweite des Ansturms neu werfen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20630"
+            }
+        },
+        {
+            "id": "40646",
+            "name": "Ritter des Sommers",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit zum Ziel.",
+                        "Jene Einheit legt 1 Moralprobe ab. Für jede Zone, die du zwischen [CROWN] und [LETTER] kontrollierst, erhält sie +1 auf das Ergebnis der Moralprobe.",
+                        "Bei Bestehen muss jeder Feind, der mit ihr im Nahkampf ist, eine Panikprobe ablegen.",
+                        "Falls diese Karte Renly Baratheons Einheit zum Ziel hat, muss bei Bestehen stattdessen jeder Feind innerhalb Kurzer Reichweite 1 Panikprobe ablegen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20630"
+            }
+        },
+        {
+            "id": "40647",
+            "name": "Luxuriöses Feldlager",
+            "faction": "baratheon",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche zivile Einheit eine Zone auf der Taktiktafel beansprucht:",
+                    "effect": [
+                        "Nachdem der Effekt jener Zone abgehandelt worden ist, bewege jene zivile Einheit auf eine beliebige freie Zone.",
+                        "Falls du sie von der [CROWN]- oder [LETTER]-Zone wegbewegt hast, bestimme 1 feindliche Kampfeinheit zum Ziel. Sie muss 1 Panikprobe ablegen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20630"
+            }
+        }
+    ],
+    "special": [
+        {
+            "id": "50601",
+            "name": "Banner der Baratheons",
+            "faction": "baratheon",
+            "version": "2021",
+            "role": "special",
+            "category": "banners",
+            "front": {
+                "ratio": 0.2,
+                "crests": 2,
+                "style": "banners",
+                "text": [
+                    "Auf der Regenbogengarde befinden sich 4 Banner der Baratheons. Zu Beginn ihrer Aktivierung darf sie Banner der Baratheons ablegen, um folgende Effekte zu erhalten. Jeder Effekt darf nur ein Mal pro Aktivierung gewählt werden:",
+                    "• In diesem Zug erhalten die Angriffe dieser Einheit **Kritischer Treffer** und **Spaltschlag**.",
+                    "• In diesem Zug erhalten die Angriffe dieser Einheit **Grausam** und, falls der Verteidiger an seiner Panikprobe scheitert, erleidet er +1 Wunde.",
+                    "• Sobald diese Einheit in diesem Zug einen Angriff durchführt, bevor die Angriffswürfel geworfen werden, wird der Verteidiger **Panisch** und **Geschwächt**.",
+                    "• Diese Einheit heilt 2 Wunden und darf in diesem Zug alle Würfel für die Bewegungsweite des Ansturms oder Rückzugs neu werfen."
+                ]
+            },
+            "back": {
+                "ratio": 0.25,
+                "crests": 2,
+                "image": true
+            }
+        }
+    ]
+}

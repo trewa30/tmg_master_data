@@ -1,0 +1,1544 @@
+{
+    "_meta": {
+        "author": "CMON",
+        "id": "martell",
+        "language": "de"
+    },
+    "unit": [
+        {
+            "id": "10901",
+            "name": "Speerträger von Haus Martell",
+            "faction": "martell",
+            "version": "2021",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Speerwall",
+                "Befehl: Taktisches Umstellen"
+            ],
+            "attacks": [
+                {
+                    "name": "Speer",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        7,
+                        7,
+                        4
+                    ]
+                }
+            ],
+            "defense": 5,
+            "morale": 6,
+            "speed": 5,
+            "cost": 5,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Während einige große Häuser im Kriegder Fünf Könige auf schwere Rüstungsetzen, verlässt sich das Haus Martellauf das Prinzip der Wendigkeit und desZusammenhalts. Die Speerträger vonHaus Martell tragen leichte Rüstungenüber Wüstengewändern, die auf dasheiße Klima ihrer Heimat abgestimmtsind und ihnen gleichzeitig ein hohesMaß an Mobilität gewährleisten.Ihre charakteristischen Speere haltenfeindliche Angriffe auf. Durcheine rasche Ausbildung stellen dieSpeerträger den größten Teil derMartell-Kampflinie dar."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10902",
+            "name": "Sand-Plänkler",
+            "faction": "martell",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Schnellfeuer",
+                "Plänkler",
+				"Wegbereiter"
+            ],
+            "attacks": [
+                {
+                    "name": "Bogen des Plänklers",
+                    "type": "short",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        5,
+                        4
+                    ]
+                },
+                {
+                    "name": "Klinge des Plänklers",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        7,
+                        5,
+                        4
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 6,
+            "speed": 6,
+            "cost": 7,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Die Sand-Plänkler setzen das Prinzip der Wendigkeit von Haus Martell mit einem tödlichen Tanz aus Klinge und Pfeilen um. Ihre leichte Rüstung erlaubt ihnen eine hohe Geschwindigkeit, die es mit den schnellsten feindlichen Einheiten aufnehmen kann. Auf dem Schlachtfeld lassen sie einen Regen von Pfeilen auf Feinde niederprasseln. Wenn sie in einem langwierigen Nahkampf eingeschlossen sind, können sich die Plänkler so gut behaupten wie jede andere leichte Einheit, aber klüger ist es, so schnell wie möglich Unterstützung herbeizuholen."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10903",
+            "name": "Derwische von Sonnspeer",
+            "faction": "martell",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Rascher Rückzug",
+                "Klingen der Derwische",
+                "Trügerische Flucht"
+            ],
+            "attacks": [
+                {
+                    "name": "Klingen der Derwische",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        4
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 6,
+            "speed": 6,
+            "cost": 6,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Die Derwische von Sonnspeer heben das Prinzip der Wendigkeit von Haus Martell auf ein neues Niveau. Während ihrer Ausbildung lernen sie, schnell anzugreifen, hart zuzuschlagen und sich ebenso rasch wieder zurückzuziehen, um entweder einen weiteren Angriff vorzubereiten oder ein günstigeres Ziel zu wählen. Feinde, die von ihnen belagert werden, werden durch den Tanz der wirbelnden Klingen häufig so aus dem Konzept gebracht, dass ihre Reaktion stark beeinträchtigt wird. Derwische können zwar eine Zeit lang im Nahkampf bestehen, fahren aber nur zu Höchstleistungen auf, wenn sie in Bewegung bleiben."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10904",
+            "name": "Königliche Garde von Sonnspeer",
+            "faction": "martell",
+            "version": "2021",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Kampfausbildung",
+                "Befehl: Schildwall"
+            ],
+            "attacks": [
+                {
+                    "name": "Königlicher Speer",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        7,
+                        4
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 5,
+            "speed": 5,
+            "cost": 7,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Die berühmte Königliche Gardevon Sonnspeer des Hauses Martellbesteht zwar aus nur wenigenMännern, zählt aber zu denbestausgebildeten Einheiten in ganzWesteros. Sie ist so anpassungsfähig,dass sie sich sowohl für die Offensiveals auch für die Defensive eignet.Obwohl ihre Rüstung schwerer ist alsdie der meisten Martell-Einheiten,kann sie dank ihrer guten Konditionmithalten. Als harter Kern einerVorhut macht die KöniglicheGarde die Martell-Truppen nahezuunbesiegbar."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10905",
+            "name": "Dünenvipern",
+            "faction": "martell",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Speer & Netz",
+                "Unterbrechen",
+                "Zusammenrotten"
+            ],
+            "attacks": [
+                {
+                    "name": "Speer & Netz",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        7,
+                        6,
+                        4
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 6,
+            "speed": 6,
+            "cost": 5,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Die Landschaft von Dorne besteht aus einem endlosen Meer von Dünen. Nur zu leicht verliert man sich in den Wogen der wandernden Dünen. Aber die Dünenvipern sind hier zu Hause und kennen jede Düne, jeden Stein und jedes Körnchen Sand. Mit Netzen und Speeren kesseln sie ihre Gegner ein, bevor sie zum finalen Schlag ausholen. Zusammen mit Verbündeten sind sie unschlagbar, aber auch auf sich allein gestellt können sie ihre Stellung eine Weile halten."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10906",
+            "name": "Vorreiter von Sternfall",
+            "faction": "martell",
+            "version": "2021",
+            "role": "unit",
+            "abilities": [
+                "Kavallerie",
+                "Krummsäbel",
+                "Sammelruf"
+            ],
+            "attacks": [
+                {
+                    "name": "Krummsäbel",
+                    "type": "melee",
+                    "hit": 4,
+                    "dice": [
+                        7,
+                        4
+                    ]
+                }
+            ],
+            "defense": 5,
+            "morale": 6,
+            "speed": 6,
+            "cost": 6,
+            "tray": "cavalry",
+            "fluff": {
+                "lore": "Haus Dayn hat seinen Sitz auf Burg Sternfall, und dort findet man die stärksten Vasallen von ganz Dorne. Sie sind für ihre Reitkünste bekannt und kämpfen in mehreren Kavallerie-Einheiten für das Haus Martell. Die Vorreiter von Sternfall sind eine leichte Kavallerie, die sich auf Überfalltaktiken und die Unterstützung befreundeter Einheiten spezialisiert hat. Ihre violetten Gewänder sind unter der gleißenden Wüstensonne für alle Verbündeten von Haus Martell ein willkommenes Zeichen."
+            },
+            "icon": "cavalry",
+            "wounds": 3
+        },
+        {
+            "id": "10907",
+            "name": "Ritter von Sternfall",
+            "faction": "martell",
+            "version": "S05",
+            "role": "unit",
+            "abilities": [
+                "Kavallerie",
+                "Sternfall-Lanze"
+            ],
+            "attacks": [
+                {
+                    "name": "Sternfall-Lanze",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        5,
+                        4
+                    ]
+                }
+            ],
+            "defense": 4,
+            "morale": 5,
+            "speed": 6,
+            "cost": 8,
+            "tray": "cavalry",
+            "fluff": {
+                "lore": "Für die Ausrüstung und Ausbildung einer Armee spielt das Klima eine wichtige Rolle. Wegen des heißen Klimas in Dorne sind die Ritter von Sternfall vom Haus Dayn leichter gepanzert als gewöhnliche Kavallerien. Doch was den Vasallen des Haus Martell an Rüstung fehlt, machen sie durch Schnelligkeit und Wendigkeit wieder wett. Sie greifen ihre Gegner aus unerwarteten Richtungen an und setzen ihre Lanzen mit tödlicher Präzision ein."
+            },
+            "icon": "cavalry",
+            "wounds": 3
+        },
+        {
+            "id": "10908",
+            "name": "Dunkelsterns Gefolgschaft",
+            "faction": "martell",
+            "version": "S07",
+            "role": "unit",
+            "abilities": [
+                "Befehl: Überrennen",
+                "Durch das Gemetzel befeuert",
+                "Krummsäbel"
+            ],
+            "attacks": [
+                {
+                    "name": "Krummsäbel",
+                    "type": "melee",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        4
+                    ]
+                }
+            ],
+            "defense": 5,
+            "morale": 5,
+            "speed": 6,
+            "cost": 7,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Die Leibgarde von Ser Gerold Dayn hat keinen offiziellen Namen; man nennt sie einfach Dunkelsterns Gefolgschaft. Und dieser Spitzname reicht aus, um feindliche Truppen in Angst und Schrecken zu versetzen. Seine Gefolgschaft tritt Dunkelsterns Erbe an, indem sie seinen Kampfstil bis zur Perfektion imitiert. Sie greift ohne Vorwarnung an, meist in eine ungeschützte Flanke, schlägt hart zu und zieht sich dann zurück, um geduldig auf die nächste Angriffs- gelegenheit zu warten … falls sie überhaupt noch einmal angreifen muss."
+            },
+            "icon": "infantry"
+        },
+        {
+            "id": "10909",
+            "name": "Bogenschützen von Himmelshöh",
+            "faction": "martell",
+            "version": "2021",
+            "role": "unit",
+            "abilities": [
+                "Scharfschütze der Wüste",
+                "Die Flanke umgehen"
+            ],
+            "attacks": [
+                {
+                    "name": "Scharfschütze der Wüste",
+                    "type": "long",
+                    "hit": 3,
+                    "dice": [
+                        7,
+                        6,
+                        5
+                    ]
+                },
+                {
+                    "name": "Dolche",
+                    "type": "melee",
+                    "hit": 5,
+                    "dice": [
+                        5,
+                        4,
+                        3
+                    ]
+                }
+            ],
+            "defense": 6,
+            "morale": 6,
+            "speed": 6,
+            "cost": 6,
+            "tray": "infantry",
+            "fluff": {
+                "lore": "Im Süden von Westeros, in einer Region, die als Fürstenpass bekannt ist, gibt es keinen erschreckenderen Anblick, als wenn die Bogenschützen von Jimmelshöh im kargen Gelände erscheinen. Sie sind brillante Flankenschützen, die sich in Position bringen, bevor ihre Feinde sie überhauptregistrieren. Allerdings geht die Mobilität dieser flinken Bogenschützen Hand in Hand mit einer schwachen Rüstung. Kluge Heerführer sollten sie daher bis zum entscheidenden Moment zu schützen wissen."
+            },
+            "icon": "infantry"
+        }
+    ],
+    "ncu": [
+        {
+            "id": "30901",
+            "name": "Doran Martell",
+            "faction": "martell",
+            "version": "S04",
+            "role": "ncu",
+            "title": "Lord von Sonnspeer",
+            "abilities": [
+                {
+                    "name": "Ersatzbefehle",
+                    "effect": [
+                        "Immer wenn Doran Martell eine Zone auf der Taktiktafel beansprucht, darfst du den Effekt jener Zone ersetzen durch:",
+                        "*Wähle 1 der folgenden Effekte:*",
+                        "• *Areo Hotahs Einheit darf sich drehen und dann 1 Marschaktion durchführen.*",
+                        "• *Areo Hotahs Einheit darf 1 Rückzugsaktion durchführen.*"
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40911",
+                "40912",
+                "40913"
+            ],
+            "fluff": {
+                "quote": "„Ich bin weder blind noch taub.“"
+            }
+        },
+        {
+            "id": "30902",
+            "name": "Doran Martell",
+            "faction": "martell",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Fürst von Dorne",
+            "abilities": [
+                {
+                    "name": "Pläne und Geheimnisse",
+                    "effect": [
+                        "Immer wenn Doran die Zone auf der Taktiktafel beansprucht, bevor du den Effekt der Zone abhandelst, wähle 1 der folgenden Effekte. Zusätzliche Effekte werde verfügbar, basierend auf der aktuellen Spielrunde:",
+                        "Immer wenn Doran [OASIS] beansprucht, darfst du den Effekt jener Zone ersetzen durch:",
+                        "**Spielrunde 1+**: Entferne 1 Zustandsmarker von 1 befreundeten Haus Martell Einheit.",
+                        "**Spielrunde 2+**: Heile 2 Wunden bei 1 befreundeten Haus Martell Einheit.",
+                        "**Spielrunde 3+**: Nimm 1 befreundete Haus Martell Einheit zum Ziel. Sie darf 2 Zoll verschieben.",
+                        "**Spielrunde 4+**: Nimm 1 feindliche Kampfeinheit zum Ziel. Sie erleidert 3 Treffer.",
+                        "**Spielrunde 5+**: Nimm 1 beliebige Anzahl feindlicher Kampfeinheiten zum Ziel. Sie werden **Verwundbar**."                       
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "fluff": {
+                "quote": "„Wer hat schon Angst, über das Gras zu laufen?“"
+            }
+        },
+        {
+            "id": "30903",
+            "name": "Ellaria Sand",
+            "faction": "martell",
+            "version": "S04",
+            "role": "ncu",
+            "title": "Mätresse der Viper",
+            "abilities": [
+                {
+                    "name": "Zauber aus Lys",
+                    "effect": [
+                        "Immer wenn Ellaria eine Zone auf der Taktiktafel beansprucht, bestimme 1 befreundete Kampfeinheit zum Ziel. Du darfst 1 Zustandsmarker von ihr ablegen.",
+                        "Falls du [SWORDS] kontrollierst, darfst du 1 feindliche Einheiten innerhalb Langer Reichweite zu der zum Ziel bestimmten befreundeten Einheit zum Ziel bestimmen. Sie erhält 1 Zustandsmarker."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "fluff": {
+                "quote": "„Wo endet es?“"
+            }
+        },
+        {
+            "id": "30904",
+            "name": "Oberyn Martell",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "ncu",
+            "title": "Die Rote Viper",
+            "abilities": [
+                {
+                    "name": "Jähzornig",
+                    "effect": [
+                        "**Einfluss** *(Sobald diese Einheit eine Zone auf der Taktiktafel beansprucht, lege diese Karte bis zum Ende der Runde an eine Kampfeinheit an)*:",
+                        "Solange Oberyn Einfluss auf eine befreundete Einheit ausübt, immer wenn ein Feind diese Einheit mit einem Nahkampfangriff angreift, nachdem jener Angriff abgehandelt worden ist, erleidet der Angreifer 1 Treffer, +1 Treffer für jede verbleibende Schlachtreihe des Verteidigers."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "fluff": {
+                "quote": "„Oberyn dagegen war schon immer halb verrückt.“ – Tywin Lennister"
+            }
+        },
+        {
+            "id": "30905",
+            "name": "Tyene Sand",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "ncu",
+            "title": "Tochter einer Septa",
+            "abilities": [
+                {
+                    "name": "Heilende Hände",
+                    "effect": [
+                        "Immer wenn Tyene eine Zone auf der Taktiktafel beansprucht, darfst du 1 freundliche Einheit zum Ziel bestimmen. Jene Einheit heilt 1 Wunde.",
+                        "Zu Beginn der zweiten Runde wähle 1 Taktikzone. Sobald eine feindliche zivile Einheit jene Zone beansprucht, lege die Giftkarte **Der Würger** an jene zivile Einheit an.",
+                        "[SKILL:Venom]"
+                    ]
+                }
+            ],
+            "cost": 5,
+            "character": true,
+            "fluff": {
+                "quote": "„Weiß steht mir gut. Ich sehe darin so … rein aus.“"
+            }
+        },
+        {
+            "id": "30906",
+            "name": "Nymeria Sand",
+            "faction": "martell",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Lady Nym",
+            "abilities": [
+                {
+                    "name": "Zunehmende Spannungen",
+                    "effect": [
+                        "**Einfluss** *(Sobald diese Einheit eine Zone auf der Taktiktafel beansprucht, lege diese Karte bis zum Ende der Runde an eine Kampfeinheit an):*",
+                        "Solange Nymeria Einfluss auf eine befreundete Kampfeinheit hat, bekommt sie folgende Effekte abhängig der Anzahl an beanspruchten Zonen auf der Taktiktafel (befreundet oder feindlich):",
+                        "**1+**: Nahkampfangriffe haben **Grausam**.",
+                        "**2+**: Nahkampfangriffe haben **Kritische Treffer**.",
+                        "**4+**: Nahkampfangriffe dürfen beliebig viele Angriffswürfel neu werfen.",
+                        "**5+**: Nahkampfangriffe werfen +2 Angriffswürfel."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "fluff": {
+                "quote": "„Nur königliches Blut kann den Mord an meinem Vater sühnen.“"
+            }
+        },
+        {
+            "id": "30907",
+            "name": "Arianne Martell",
+            "faction": "martell",
+            "version": "S07",
+            "role": "ncu",
+            "title": "Erbin von Dorne",
+            "abilities": [
+                {
+                    "name": "Vermittlerin",
+                    "effect": [
+                        "**Einfluss** *(Sobald diese Einheit eine Zone auf der Taktiktafel beansprucht, lege diese Karte bis zum Ende der Runde an eine Kampfeinheit an):*",
+                        "Immer wenn Arianne Martell Einfluss auf eine Einheit ausübt, wähle 1 der folgenden Effekte. Wenn du [CROWN] oder [OASIS] kontrollierst, wähle beide:",
+                        "• Solange Arianne Martell Einfluss auf eine feindliche Einheit ausübt, verliert jener Einheit alle Fähigkeiten.",
+                        "• Solange Arianne Martell Einfluss auf eine feindliche Einheit ausübt, zählt diese Einheit -1 Schlachtreihen bei Angriffen. Wenn Arianne [CROWN] oder [OASIS] beansprucht, verwendet sie ihren niedrigsten Angriffswürfelwert."
+                    ]
+                }
+            ],
+            "cost": 5,
+            "character": true,
+            "fluff": {
+                "quote": "„Ich war ein dummes, eigensinniges Mädchen, das das Spiel der Throne wie ein Würfel werfender Betrunkener spielt.“"
+            }
+        },
+        {
+            "id": "30908",
+            "name": "Arys Eichenherz",
+            "faction": "martell",
+            "version": "2021",
+            "role": "ncu",
+            "title": "Gesandter der Krone",
+            "abilities": [
+                {
+                    "name": "Unbeugsame Politik",
+                    "effect": [
+                        "Ein Mal pro Partie, während der Aufräumphase, darfst du Arys Eichenherz auf der Taktiktafel stehen lassen. Er wird in der nächsten Runde nicht aktiviert.",
+                        "Falls Arys Eichenherz eine Runde auf der Taktiktafel beginnt, bestimme 1 feindliche Kampfeinheit zum Ziel. Sie wird **Geschwächt**."
+                    ]
+                }
+            ],
+            "cost": 4,
+            "character": true,
+            "fluff": {
+                "quote": "„Es gab stets Männer, denen es leichter gefallen ist, ein Gelübde abzulegen, als es einzuhalten.“"
+            }
+        }
+    ],
+    "attachment": [
+        {
+            "id": "20901",
+            "name": "Oberyn Martell",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "attachment",
+            "title": "Prinz von Dorne",
+            "abilities": [
+                "Mantikorgift",
+                "Präzision",
+                "Fangzahn der Viper"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40908",
+                "40909",
+                "40910"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Der Mann ist berüchtigt, und nicht nur dafür, sein Schwert zu vergiften.“ – Jaime Lennister"
+            }
+        },
+        {
+            "id": "20902",
+            "name": "Oberyn Martell",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "attachment",
+            "title": "Die Rote Viper",
+            "abilities": [
+                "Meisterhafter Duellant",
+                "Fangzahn der Viper"
+            ],
+            "cost": 2,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Das da werde ich töten.“"
+            }
+        },
+        {
+            "id": "20903",
+            "name": "Areo Hotah",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Hauptmann der Wache",
+            "abilities": [
+                "Koordinierter Angriff",
+                "Wütender Ansturm",
+                "Der Krone verpflichtet"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40911",
+                "40912",
+                "40913"
+            ],
+            "back_text": [
+                {
+                    "text": "*Areo Hotah, Hauptmann der Wache, darf nur in einer Armee aufgestellt werden, die Doran Martell, Lord von Sonnspeer, enthält.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Mein Fürst befiehlt, und Hotah gehorcht.“"
+            }
+        },
+        {
+            "id": "20905",
+            "name": "Areo Hotah",
+            "faction": "martell",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Pflichtbewusster Riese",
+            "abilities": [
+                "Befehl: Schlachtplan",
+                "Befehl: Ziel markieren"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "Diene. Gehorche. Beschütze. EinfacheGelübde für einfache Männer."
+            }
+        },
+        {
+            "id": "20906",
+            "name": "Hauptmann der Derwische",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "abilities": [
+                "Befehl: Zwietracht säen",
+                "Unterbrechen"
+            ],
+            "cost": 2,
+            "tray": "infantry",
+            "icon": "infantry"
+        },
+        {
+            "id": "20907",
+            "name": "Hauptmann der Speerträger",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "attachment",
+            "abilities": [
+                "Befehl: Bedrohen"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "icon": "infantry"
+        },
+        {
+            "id": "20908",
+            "name": "Speerlord",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "abilities": [
+                "Mut und Kühnheit"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "icon": "infantry"
+        },
+        {
+            "id": "20909",
+            "name": "Obara Sand",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Älteste Schwester",
+            "abilities": [
+                "Befehl: Waghalsiger Heldenmut",
+                "Durch das Gemetzel befeuert",
+                "Spaltschlag"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40914",
+                "40915",
+                "40916"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Gebt mir meinen Speer zurück, Onkel.“"
+            }
+        },
+        {
+            "id": "20910",
+            "name": "Obara Sand",
+            "faction": "martell",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Sandschlange",
+            "abilities": [
+                "Wütender Ansturm",
+                "Spaltschlag",
+                "Unbändige Wut"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Sie jagt etwas hinterher, das sie niemals erreichen wird.“ – Areo Hotah"
+            }
+        },
+        {
+            "id": "20911",
+            "name": "Nymeria Sand",
+            "faction": "martell",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Sandschlange",
+            "abilities": [
+                "Überlegener Schlag",
+                "Dornische Vergeltung"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Es endet mit Blut, so wie es mit Blut begonnen hat.“"
+            }
+        },
+        {
+            "id": "20912",
+            "name": "Elia Sand",
+            "faction": "martell",
+            "version": "S05",
+            "role": "attachment",
+            "title": "Sandschlange",
+            "abilities": [
+                "Wilde Ausstrahlung",
+                "Präzision"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ladys nehmen nicht an Turnieren teil.“„Ich nehme an Turnieren teil. Ich bin Lady Lanze.“ – Garibald und Elia Sand"
+            }
+        },
+        {
+            "id": "20913",
+            "name": "Harmen Uller",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Dornischer Gesandter",
+            "abilities": [
+                "Dornische Überzeugung",
+                "Verstärkungen"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Dorne besteht aus Sand und Skorpionen und kahlen roten Bergen, die in der Sonne glühen.“ – Reznak mo Reznak"
+            }
+        },
+        {
+            "id": "20914",
+            "name": "Harmen Uller",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "attachment",
+            "title": "Lord von Höllhain",
+            "abilities": [
+                "Eiserne Entschlossenheit",
+                "Verstärkungen"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40917",
+                "40918",
+                "40919"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ich werde Myrcella in Höllhain krönen und dort meine Banner aufstellen.“ – Arianne Martell"
+            }
+        },
+        {
+            "id": "20915",
+            "name": "Arys Eichenherz",
+            "faction": "martell",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Der weisse Ritter",
+            "abilities": [
+                "Schutz durch die Krone"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Arys, mein Süßer, mein weißer Ritter, warum hast du das nur getan?“ – Arianne Martell"
+            }
+        },
+        {
+            "id": "20916",
+            "name": "Quentyn Martell",
+            "faction": "martell",
+            "version": "2021-S02",
+            "role": "attachment",
+            "title": "Prinz von Dorne",
+            "abilities": [
+                "Die Flanke umgehen"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Ignoriere die üblichen Verstärkungsbeschränkungen.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Dies wird mein großes Abenteuer.“"
+            }
+        },
+        {
+            "id": "20917",
+            "name": "Gerold Dayn",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Ritter von Hochklause",
+            "abilities": [
+                "Befehl: Anspornen",
+                "Wütender Ansturm"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ich gehöre der Nacht.“"
+            }
+        },
+        {
+            "id": "20918",
+            "name": "Edric Dayn",
+            "faction": "martell",
+            "version": "S06",
+            "role": "attachment",
+            "title": "Lord von Sternfall",
+            "abilities": [
+                "Feste Überzeugung (Martell)",
+                "Verwegenheit"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "back_text": [
+                {
+                    "text": "*Ignoriere die üblichen Verstärkungsbeschränkungen.*"
+                }
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "Ein höflicher junger Bursche."
+            }
+        },
+        {
+            "id": "20919",
+            "name": "Daemon Sand",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Bastard von Göttergnad",
+            "abilities": [
+                "Befehl: Ungeahnter Ansturm"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "character": true,
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Der Mann war so selbstgefällig wie hübsch.“ – Arianne Martell"
+            }
+        },
+        {
+            "id": "20920",
+            "name": "Daemon Sand",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Rachsüchtiger Ritter",
+            "abilities": [
+                "Einschüchterung durch die Krone",
+                "Sammelruf"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40920",
+                "40921",
+                "40922"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Warum hat mein Vater von allen Rittern in Dorne diesen hier zu meinem Schutz bestimmt?“ – Arianne Martell"
+            }
+        },
+        {
+            "id": "20921",
+            "name": "Gerold Dayn",
+            "faction": "martell",
+            "version": "2021",
+            "role": "attachment",
+            "title": "Dunkelstern",
+            "abilities": [
+                "Befehl: Kampfausbildung",
+                "Mut und Kühnheit"
+            ],
+            "tray": "infantry",
+            "character": true,
+            "commander": true,
+            "tactics": [
+                "40923",
+                "40924",
+                "40925"
+            ],
+            "icon": "infantry",
+            "fluff": {
+                "quote": "„Ich wurde mit Gift von der Mutterbrust entwöhnt.“"
+            }
+        },
+        {
+            "id": "20922",
+            "name": "Wache von Hochklause",
+            "faction": "martell",
+            "version": "S06",
+            "role": "attachment",
+            "abilities": [
+                "Überfall",
+                "Verbesserte Mobilität"
+            ],
+            "cost": 1,
+            "tray": "infantry",
+            "icon": "infantry"
+        }
+    ],
+    "tactics": [
+        {
+            "id": "40901",
+            "name": "Überlegene Position",
+            "faction": "martell",
+            "version": "S05",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Feind eine Ansturmaktion durchführt, bevor jene Aktion abgehandelt wird:",
+                    "effect": [
+                        "Falls jener Feind auf die Front einer Einheit einen Ansturm durchführt, erleidet er bei einem Wurf auf die Bewegungsweite des Ansturms von 3 oder weniger einen ungeordneten Ansturm. Falls er einen ungeordneten Ansturm erleidet, wird er **Verwundbar**.",
+                        "Wenn jener Ansturm deine Heerführer-Einheit als Ziel hat, erleidet jener Feind bei einem Wurf auf die Bewegungsweite des Ansturms von 5 oder weniger einen ungeordneten Ansturm. "
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40902",
+            "name": "Ungebeugt, Ungezähmt, Ungebrochen",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit eine Panikprobe ablegt, nachdem die Würfel geworfen worden sind:",
+                    "effect": [
+                        "Jene Einheit darf beliebig viele Würfel für diese Probe neu werfen. Falls du [SWORDS] kontrollierst,",
+                        "besteht sie diese Probe stattdessen.",
+                        "Bestimme 1 Feind innerhalb Langer Reichweite zu dieser Einheit zum Ziel und lege diese Karte an ihn an, bis er von der [SWORDS]-Zone zum Ziel bestimmt wird oder 1 deiner befreundeten Kampfeinheiten vernichtet wird.",
+                        "Solange diese Karte an jenem Feind anliegt, erhält er –2 auf das Ergebnis von Moralproben."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40903",
+            "name": "Rhoynische Rache",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Bestimme 1 feindliche Kampfeinheit zum Ziel und lege diese Karte bis zum Ende der Partie an sie an. Sobald eine befreundete Infanterie- oder Kavallerie-Einheit vernichtet wird, lege 1 Befehlsmarker auf diese Karte.",
+                        "Solange auf dieser Karte ein Befehlsmarker liegt, immer wenn diese Einheit angreift, erleidet sie 1 Wunde für jede gewürfelte 1 auf einem Angriffswürfel. Solange auf dieser Karte ein Befehlsmarker liegt und der Gegner dieser Einheit [CROWN] kontrolliert, immer wenn diese Einheit von einer Taktikzone zum Ziel bestimmt wird, bevor der Effekt jener Zone abgehandelt wird, erleidet sie 1 Wunde."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40904",
+            "name": "Sand-Diplomatie",
+            "faction": "martell",
+            "version": "S04",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn einer beliebigen Runde:",
+                    "effect": [
+                        "Dein Gegner wählt 1 Taktikzone. Dann wählst du 1 Taktikzone. Sobald 1 jener Zonen zum ersten Mal in dieser Runde beansprucht wird, nachdem der Effekt jener Zone abgehandelt worden ist, darf der Gegner des Spielers, der die Zone beansprucht hat, bis zu 2 feindliche Kampfeinheiten zum Ziel bestimmen. Sie werden **Verwundbar** und **Geschwächt**."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40905",
+            "name": "Steigende Temperaturen",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche Kampfeinheit aktiviert wird:",
+                    "effect": [
+                        "Lege diese Karte an jene Einheit an, bis sie von der [SWORDS]-Zone zum Ziel bestimmt wird.",
+                        "Solange diese Karte an dieser Einheit anliegt, erleidet sie die folgenden Effekte basierend auf der Spielrunde *(die Effekte sind kumulativ)*:",
+                        "**2+**: Die Einheit kann nicht zum Ziel von befreundeten Taktikkarten bestimmt werden.",
+                        "**3+**: Die Angriffe der Einheit erleiden –1 auf den Trefferwurf.",
+                        "**4+**: Die Einheit kann keine Wunden heilen."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40906",
+            "name": "Raffinierte List",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Kampfeinheit aktiviert wird:",
+                    "effect": [
+                        "Diese Einheit kann in diesem Zug keine Aktionen durchführen. Bestimme stattdessen 1 andere befreundete Kampfeinheit zum Ziel. Sie führt 1 Manöver-, Marsch- oder Rückzugsaktion durch.",
+                        "Falls du [SWORDS] kontrollierst, bevor sie diese Aktion durchführt, wird 1 Feind innerhalb Langer Reichweite **Verwundbar**."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40907",
+            "name": "Dünentaktik",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Falls der Verteidiger gleich viele oder mehr vernichtete Schlachtreihen als der Angreifer hat, wird bei diesem Angriff der niedrigste Angriffswürfelwert verwendet.",
+                        "Falls du [CROWN] kontrollierst, nachdem dieser Angriff abgeschlossen worden ist, wird der Angreifer **Verwundbar** und **Panisch**."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "40908",
+            "name": "Überraschende Erschöpfung",
+            "faction": "martell",
+            "version": "S04",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche Kampfeinheit aktiviert wird:",
+                    "effect": [
+                        "Dieser Feind wird **Verwundbar**.",
+                        "Lege diese Karte an jenen Feind an, bis der Verwundbar-Marker abgelegt wird.",
+                        "Solange diese Karte an dieser Einheit anliegt, immer wenn sie angreift, erleidet sie –1 auf den Trefferwurf.",
+                        "Solange diese Karte an dieser Einheit anliegt, immer wenn sie Oberyn Martells Einheit angreift, bevor die Angriffswürfel geworden werden, wird sie **Geschwächt**."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20901"
+            }
+        },
+        {
+            "id": "40909",
+            "name": "Abgefangene Befehle",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald ein Gegner eine Einheit zum Ziel einer Taktikzone bestimmt:",
+                    "effect": [
+                        "Wirf einen Würfel: Bei 3+ muss dein Gegner eine andere Einheit zum Ziel des Effekts jener Taktikzone bestimmen *(falls möglich)*.",
+                        "Falls du [CROWN] kontrollierst, darfst du diesen Würfel neu werfen.",
+                        "Falls die neu zum Ziel bestimmte Einheit innerhalb Langer Reichweite zu Oberyns Einheit ist, erhält sie einen Zustandsmarker."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20901"
+            }
+        },
+        {
+            "id": "40910",
+            "name": "Die Ruchlosigkeit der Viper",
+            "faction": "martell",
+            "version": "S04",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche Kampfeinheit aktiviert wird:",
+                    "effect": [
+                        "Falls jener Feind innerhalb Langer Reichweite zu Oberyn Martells Einheit ist, erleidet er –2 [MOVEMENT] für diesen Zug.",
+                        "Falls jener Feind in diesem Zug an einem Ansturm scheitert, wird er **Verwundbar**."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Wähle 1 der folgenden Effekte:",
+                        "• Ziehe 1 Taktikkarte.",
+                        "• Falls Oberyn Martells Einheit im Nahkampf ist, durchsuche dein Taktikdeck oder deinen Ablagestapel nach 1 Heerführer-Taktikkarte und füge sie deiner Hand hinzu."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20901"
+            }
+        },
+        {
+            "id": "40911",
+            "name": "Trügerische Absichten",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche zivile Einheit aktiviert wird:",
+                    "effect": [
+                        "Falls jene zivile Einheit in diesem Zug eine Zone auf der Taktiktafel beansprucht, nachdem der Effekt jener Zone abgehandelt worden ist, darfst du jene zivile Einheit auf eine beliebige unbeanspruchte Zone bewegen.",
+                        "Falls du jene zivile Einheit von der [CROWN]-Zone entfernt hast, bestimme 1 feindliche Kampfeinheit zum Ziel. Sie erhält 1 Zustandsmarker."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "30901"
+            }
+        },
+        {
+            "id": "40912",
+            "name": "Friedensverhandlung",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Kampfeinheit aktiviert wird:",
+                    "effect": [
+                        "Jene Einheit kann in diesem Zug keine Aktionen durchführen. Bestimme 1 Feind innerhalb Kurzer Reichweite zum Ziel. Er wird aktiviert, aber führt keine Aktionen durch.",
+                        "Falls diese Karte Areo Hotahs Einheit zum Ziel hat, darfst du beide Einheiten 2 Wunden heilen lassen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "30901"
+            }
+        },
+        {
+            "id": "40913",
+            "name": "Zeit zu Handeln",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete zivile Einheit die [CROWN]-Zone beansprucht:",
+                    "effect": [
+                        "Ersetze den Effekt jener Zone durch:",
+                        "*Jede feindliche Kampfeinheit wird **Verwundbar**.*"
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "30901"
+            }
+        },
+        {
+            "id": "40914",
+            "name": "Ausdauernder Angriff",
+            "faction": "martell",
+            "version": "S06",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Falls diese Einheit den Zug im Nahkampf mit dem Verteidiger begonnen hat, verwendet sie ihren höchsten Angriffswürfelwert und darf beliebig viele Angriffswürfel neu werfen.",
+                        "Falls diese Karte Obara Sands Einheit zum Ziel hat, wird der Verteidiger **Verwundbar**."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20909"
+            }
+        },
+        {
+            "id": "40915",
+            "name": "Rücksichtslose Schläge",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Dieser Angriff erhält **Kritischer Treffer** und **Präzision**. Der Angreifer erleidet 1 Wunde für jede gewürfelte 1 auf einem Angriffswürfel.",
+                        "Falls diese Karte Obaras Sands Einheit zum Ziel hat, verwendet dieser Angriff seinen höchsten Angriffswürfelwert."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20909"
+            }
+        },
+        {
+            "id": "40916",
+            "name": "Wüstenerfahrung",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche Einheit eine Aktion abschließt:",
+                    "effect": [
+                        "Falls sie jene Aktion innerhalb Langer Reichweite zu Obara Sands Einheit beendet, wird sie **Panisch** und **Geschwächt**."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Ziehe 1 Taktikkarte."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20909"
+            }
+        },
+        {
+            "id": "40917",
+            "name": "Speerwall",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald auf eine befreundete Einheit ein erfolgreicher Ansturm durchgeführt wird, bevor der Angreifer seinen Nahkampfangriff durchführt:",
+                    "effect": [
+                        "Falls jene befreundete Einheit nicht mit einem anderen Feind im Nahkampf ist und der Ansturm auf die Front oder in die Flanke durchgeführt worden ist, führt sie 1 Nahkampfangriffsaktion auf den Angreifer durch, bevor der Angreifer seinen Nahkampfangriff abhandelt."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20914"
+            }
+        },
+        {
+            "id": "40918",
+            "name": "Durchhaltevermögen",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit zum Ziel und lege diese Karte bis zum Ende der Partie an sie an. Solange diese Karte an dieser Einheit anliegt, erhalten die Nahkampfangriffe dieser Einheit die folgenden Effekte basierend auf der Spielrunde *(die Effekte sind kumulativ)*:",
+                        "**3+**: Die Einheit darf beliebig viele Fehlschläge neu werfen.",
+                        "**4+**: **Spaltschlag**",
+                        "**5+**: **Kritischer Treffer**",
+                        "**6+**: +2 Angriffswürfel"
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20914"
+            }
+        },
+        {
+            "id": "40919",
+            "name": "Widerwillige Waffenruhe",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine feindliche Einheit eine Moralprobe besteht:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit innerhalb Langer Reichweite zu jener Einheit zum Ziel. Sie heilt 2 Wunden, +1 Wunde für jede ihrer vernichteten Schlachtreihen."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20914"
+            }
+        },
+        {
+            "id": "40920",
+            "name": "Durst nach Rache",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn einer beliebigen Runde:",
+                    "effect": [
+                        "Bestimme 1 befreundete Kampfeinheit zum Ziel. Jene Einheit führt 1 Angriffsaktion durch.",
+                        "Falls diese Karte Daemon Sands Einheit zum Ziel hat, erhält sie +1 auf den Trefferwurf.",
+                        "Nachdem jener Angriff abgeschlossen worden ist, darf dein Gegner 1 zivile Einheit aktivieren."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20920"
+            }
+        },
+        {
+            "id": "40921",
+            "name": "Koordinierte Verschwörung",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Nachdem eine befreundete Einheit einen Nahkampfangriff abgeschlossen hat:",
+                    "effect": [
+                        "Bestimme 1 andere befreundete Kampfeinheit innerhalb Langer Reichweite zum Angreifer zum Ziel. Jene Einheit führt 1 Manöver- oder Rückzugsaktion durch."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20920"
+            }
+        },
+        {
+            "id": "40922",
+            "name": "Erbärmlicher Versuch",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Einheit eine Panikprobe besteht, wenn sie mit einem Nahkampfangriff angegriffen worden ist:",
+                    "effect": [
+                        "Bestimme den Angreifer zum Ziel. Er erleidet 2 Treffer für jede verbleibende Schlachtreihe dieser Einheit.",
+                        "Falls der Verteidiger Daemon Sands Einheit war, wird er zudem **Geschwächt**."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20920"
+            }
+        },
+        {
+            "id": "40923",
+            "name": "Einsamer Ritter",
+            "faction": "martell",
+            "version": "2021-S03",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines befreundeten Zuges:",
+                    "effect": [
+                        "Bestimme Gerold Dayns Einheit zum Ziel. Falls keine anderen befreundeten Einheiten innerhalb Langer Reichweite zu ihr sind, darf Gerolds Einheit 1 Manöver- oder Marschaktion durchführen."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Ziehe 1 Taktikkarte."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20921"
+            }
+        },
+        {
+            "id": "40924",
+            "name": "Umsturzversuch",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Zu Beginn eines feindlichen Zuges:",
+                    "effect": [
+                        "Bestimme 1 Zone auf der Taktiktafel zum Ziel.",
+                        "Bis zum Ende des Zuges, sobald eine feindliche zivile Einheit jene Zone beansprucht, darf Gerold Dayns Einheit 1 Ansturmaktion durchführen."
+                    ]
+                },
+                {
+                    "trigger": "Zu Beginn eines beliebigen Zuges:",
+                    "effect": [
+                        "Ziehe 1 Taktikkarte."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20921"
+            }
+        },
+        {
+            "id": "40925",
+            "name": "Rücksichtslose Schläge",
+            "faction": "martell",
+            "version": "2021",
+            "role": "tactics",
+            "text": [
+                {
+                    "trigger": "Sobald eine befreundete Kampfeinheit einen Nahkampfangriff durchführt, bevor die Angriffswürfel geworfen werden:",
+                    "effect": [
+                        "Dieser Angriff erhält **Kritischer Treffer** und **Präzision**. Der Angreifer erleidet 1 Wunde für jede gewürfelte 1 auf einem Angriffswürfel.",
+                        "Falls diese Karte Gerold Dayns Einheit zum Ziel hat, verwendet dieser Angriff seinen höchsten Angriffswürfelwert."
+                    ]
+                }
+            ],
+            "commander": {
+                "id": "20921"
+            }
+        }
+    ],
+    "special": [
+        {
+            "id": "50900",
+            "name": "Wassergärten",
+            "faction": "martell",
+            "version": "2021",
+            "role": "special",
+            "category": "zone",
+            "front": {
+                "style": "zone",
+                "note": [
+                    "**Wassergärten kann sich nur ein Mal im Spiel befinden. Solange du diese Zone kontrollierst, zählen Gegner für Fähigkeiten oder Taktikkarten, als würden sie keine Taktikzone kontrollieren.**"
+                ],
+                "effect": [
+                    "Im nächsten Zug deines Gegners muss er eine Kampfeinheit aktivieren, falls möglich."
+                ]
+            },
+            "back": {
+                "style": "zone",
+                "text": [
+                    "Falls deine Armee Doran Martell, Fürst von Dorne, enthält, lege die Taktikzonenkarte Wassergärten zu Beginn der Partie neben die Taktiktafel. Sie zählt für alle Belange als zusätzliche Taktikzone."
+                ]
+            },
+            "size": {
+                "w": 70,
+                "h": 120
+            }
+        },
+        {
+            "id": "50901",
+            "name": "Lord von Sonnspeer",
+            "faction": "martell",
+            "version": "2021",
+            "role": "special",
+            "category": "commander",
+            "front": {
+                "style": "sunspear",
+                "text": [
+                    "Du darfst **Doran Martell**, **Lord von Sonnspeer**, als deinen Heerführer wählen *(aber musst trotzdem seine Punkte bezahlen)*. Falls du das tust, muss deine Armee **Areo Hotah**, **Hauptmann der Wache** enthalten. Er zählt auf dem Schlachtfeld für alle Belange als dein Heerführer."
+                ]
+            },
+            "back": {
+                "style": "sunspear"
+            }
+        },
+        {
+            "id": "50902",
+            "name": "Mantikorgift",
+            "faction": "martell",
+            "version": "2021",
+            "role": "special",
+            "category": "poison",
+            "front": {
+                "ratio": 0.3,
+                "crests": 1,
+                "style": "small-padding",
+                "text": [
+                    "[SKILL:Venom]",
+                    "Diese Einheit kann keine Wunden heilen.",
+                    "Falls diese Einheit **Verwundbar** werden würde, aber sie bereits **Verwundbar** ist, erleidet sie stattdessen 1 Wunde.",
+                    "Immer wenn diese Einheit aktiviert wird, wird sie **Verwundbar**."
+                ]
+            },
+            "back": {
+                "top": [
+                    "[SKILL:Venom]",
+                    "**GIFT**"
+                ],
+                "quote": "„Kein richtiger Mann tötete mit Gift. Gift war die Waffe von Feiglingen, Frauen und Dornischen.“\n-Victarion Graufreud",
+                "ratio": 0.5,
+                "crests": 1,
+                "text": [
+                    "**Lege diese Karte zu Beginnder Partie in die Nähedeines Taktikdecks.**",
+                    "*Diese Karte kommt durch Fähigkeiten und Effekte ins Spiel.*"
+                ]
+            }
+        },
+        {
+            "id": "50903",
+            "name": "Der Würger",
+            "faction": "martell",
+            "version": "S05",
+            "role": "special",
+            "category": "poison",
+            "front": {
+                "ratio": 0.3,
+                "crests": 1,
+                "style": "small-padding",
+                "text": [
+                    "Diese Einheit erleidet folgende Effekte basierend auf der Spielrunde *(die Effekte sind kumulativ)*.",
+                    "• **2+:** Verliert alle Fähigkeiten.",
+                    "• **3+:** Zählt nicht als würde sie für Fähigkeiten oder Taktikkarten eine Taktikzone kontrollieren.",
+                    "• **4+:** Du darfst diese Einheit nur aktivieren, wenn du diese Runde keine anderen Einheiten aktivieren kannst.",
+                    "• **5+:** Zerstöre diese Einheit am Anfang der Runde."
+                ]
+            },
+            "back": {
+                "top": [
+                    "[SKILL:Venom]",
+                    "**GIFT**"
+                ],
+                "quote": "„Kein richtiger Mann tötete mit Gift. Gift war die Waffe von Feiglingen, Frauen und Dornischen.“\n-Victarion Graufreud",
+                "ratio": 0.5,
+                "crests": 1,
+                "text": [
+                    "**Lege diese Karte zu Beginnder Partie in die Nähedeines Taktikdecks.**",
+                    "*Diese Karte kommt durch Fähigkeiten und Effekte ins Spiel.*"
+                ]
+            }
+        }
+    ]
+}

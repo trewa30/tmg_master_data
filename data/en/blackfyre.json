@@ -1,9 +1,8 @@
 {
     "_meta": {
         "author": "Hotshot",
-        "id": "hotshot-blackfyre",
-        "language": "en",
-        "pre": "hst"
+        "id": "blackfyre",
+        "language": "en"
     },
     "factions": {
         "blackfyre": {
@@ -246,10 +245,13 @@
         },
         "AEGON'S WHITECLOAKS": {
             "effect": [
-                "This unit has 8 models (including Aegon), 8 wounds and 2 ranks."
+                "• This unit has 8 models *(including Aegon)* and 2 ranks.",
+                "• Each model in this unit has 2 Wounds.",
+                "• This unit can suffer a maximum of 2 Wounds each time it fails a Panic Test.",
+                "• Each time you Claim [CROWN], if this unit has less than 4 Blackfyre Banners, it gains 1 Blackfyre Banner."
             ],
             "icons": [
-                "wounds"
+                "wounds2"
             ]
         },
         "DRAKE'S SPEED": {
@@ -745,7 +747,8 @@
             "fluff": {
                 "lore": "Ser Rolly was the first, the first to bend the knee and swear to defend Aegon VI's life with his own. None of the seven swore before the Iron Throne, nor before the High Sept but when Aegon takes King's Landing, their names will be written in the White Book, and locked in the White Sword Tower for all of history, along side Arthur Dayne, Ducan the Tall, Aemon the Dragonknight and Corlys Velaryon."
             },
-            "icon": "infantry"
+            "icon": "infantry",
+            "wounds": 2
         }
     ],
     "ncu": [

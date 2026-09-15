@@ -52,7 +52,7 @@
                 {
                     "name": "Skirmisher’s Bow",
                     "type": "short",
-                    "hit": 4,
+                    "hit": 3,
                     "dice": [
                         7,
                         5,

@@ -31,7 +31,7 @@
             "defense": 6,
             "morale": 6,
             "speed": 5,
-            "cost": 5,
+            "cost": 4,
             "tray": "infantry",
             "fluff": {
                 "lore": "Every force needs fodder, an unfortunate truth in war. And yet, there’s fodder holding the line at knifepoint and fodder that steps up of its own accord. The Brotherhood’s Peasant Levy are mostly volunteers, which sets them above conscripts. They are most efficient in great numbers and fighting alongside experienced warriors, disrupting enemy lines. Enemy commanders would be unwise to dismiss them as mere rabble."
